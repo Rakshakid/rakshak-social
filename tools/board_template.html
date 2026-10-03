@@ -1,0 +1,242 @@
+<title>Rakshak Content Board</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Tiro+Devanagari+Hindi&display=swap" rel="stylesheet">
+<style>
+/* Layout: one column of post cards in publishing order, preview left / words + decision right on wide screens. Single dark theme = brand look. */
+:root{
+  --bg:#07090D; --surface:#0E1118; --raised:#151923; --ivory:#F6F1E7; --muted:#AEB3BE; --faint:#7D8391;
+  --gold:#E8B547; --gold-hi:#F6DFA6; --line:rgba(232,181,71,.22); --line-soft:rgba(246,241,231,.08);
+  --ok:#5FC08A; --warn:#E8B547; --no:#E2675B;
+  --display:'Playfair Display',Georgia,serif; --body:'DM Sans',system-ui,sans-serif; --mono:'DM Mono',ui-monospace,monospace; --hindi:'Tiro Devanagari Hindi','Noto Serif Devanagari',serif;
+  color-scheme:dark;
+}
+h1,h2,p{margin:0}
+body{background:var(--bg);color:var(--ivory);font-family:var(--body);font-size:16px;line-height:1.55}
+.wrap{max-width:1080px;margin:0 auto;padding-inline:20px;padding-block:28px 80px}
+header.top{display:flex;flex-wrap:wrap;gap:18px 28px;align-items:end;justify-content:space-between;border-bottom:1px solid var(--line);padding-bottom:22px}
+.kicker{font-family:var(--mono);font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--gold)}
+h1{font-family:var(--display);font-weight:700;font-size:clamp(30px,5vw,44px);line-height:1.1;margin:6px 0 8px;text-wrap:balance}
+h1 em{color:var(--gold);font-style:italic;font-weight:600}
+.sub{color:var(--muted);max-width:60ch}
+.tally{display:flex;gap:10px;flex-wrap:wrap}
+.tally span{font-family:var(--mono);font-size:13px;padding:7px 12px;border-radius:999px;border:1px solid var(--line-soft);color:var(--muted);font-variant-numeric:tabular-nums}
+.tally b{color:var(--ivory);font-weight:500}
+.how{margin:18px 0 6px;color:var(--faint);font-size:14px}
+.conn{font-family:var(--mono);font-size:12px;color:var(--faint);margin-top:6px}
+.day{font-family:var(--mono);font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold-hi);margin:40px 0 12px}
+.card{display:grid;grid-template-columns:minmax(0,380px) minmax(0,1fr);gap:26px;background:var(--surface);border:1px solid var(--line-soft);border-radius:18px;padding:20px;margin-bottom:18px}
+.card[data-status="approved"]{border-color:rgba(95,192,138,.45)}
+.card[data-status="changes"]{border-color:rgba(232,181,71,.55)}
+.card[data-status="rejected"]{border-color:rgba(226,103,91,.5)}
+@media (max-width:760px){.card{grid-template-columns:minmax(0,1fr)}}
+.media{min-width:0}
+.strip{display:flex;gap:10px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:8px}
+.strip img,.strip video{flex:0 0 100%;width:100%;border-radius:12px;scroll-snap-align:start;background:#000;display:block}
+.strip.story img,.strip.story video{flex-basis:auto;width:min(100%,280px)}
+.count{font-family:var(--mono);font-size:12px;color:var(--faint);margin-top:4px}
+.info{min-width:0;display:flex;flex-direction:column;gap:14px}
+.meta{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.chip{font-family:var(--mono);font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;padding:5px 10px;border-radius:999px;border:1px solid var(--line);color:var(--gold-hi)}
+.chip.net{border-color:var(--line-soft);color:var(--muted)}
+.pill{margin-left:auto;font-family:var(--mono);font-size:12px;padding:5px 11px;border-radius:999px;background:var(--raised);color:var(--muted)}
+.pill.approved{background:rgba(95,192,138,.15);color:var(--ok)}
+.pill.changes{background:rgba(232,181,71,.15);color:var(--warn)}
+.pill.rejected{background:rgba(226,103,91,.15);color:var(--no)}
+h2{font-family:var(--display);font-weight:700;font-size:24px;line-height:1.2;text-wrap:balance}
+.why{color:var(--muted);font-size:14.5px}
+.tabs{display:flex;gap:4px;border-bottom:1px solid var(--line-soft)}
+.tabs button{background:none;border:0;color:var(--faint);font:500 13px var(--body);padding:8px 12px;cursor:pointer;border-bottom:2px solid transparent;margin-bottom:-1px}
+.tabs button[aria-selected="true"]{color:var(--ivory);border-color:var(--gold)}
+.cap{white-space:pre-wrap;font-size:15px;color:var(--ivory);background:var(--raised);border-radius:12px;padding:14px 16px;max-height:260px;overflow:auto}
+.cap.hi{font-family:var(--hindi);font-size:17px;line-height:1.7}
+.tags{font-family:var(--mono);font-size:12.5px;color:var(--gold);word-break:break-word}
+.yt{font-size:13.5px;color:var(--muted)} .yt b{color:var(--ivory);font-weight:500}
+.actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:2px}
+.btn{font:600 14px var(--body);padding:10px 18px;border-radius:999px;cursor:pointer;border:1px solid var(--line-soft);background:var(--raised);color:var(--ivory)}
+.btn:hover{border-color:var(--line)}
+.btn:focus-visible,.tabs button:focus-visible,textarea:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+.btn.approve{background:linear-gradient(135deg,var(--gold-hi),var(--gold));color:#07090D;border-color:transparent}
+.btn[disabled]{opacity:.45;cursor:not-allowed}
+.notebox{display:flex;flex-direction:column;gap:8px}
+textarea{width:100%;min-height:84px;background:var(--raised);color:var(--ivory);border:1px solid var(--line);border-radius:12px;padding:10px 12px;font:15px var(--body);resize:vertical}
+.saved-note{font-size:14px;color:var(--gold-hi);background:rgba(232,181,71,.08);border-radius:10px;padding:8px 12px}
+.ro{font-size:13px;color:var(--faint)}
+footer{margin-top:40px;color:var(--faint);font-size:13.5px;border-top:1px solid var(--line-soft);padding-top:18px}
+@media (prefers-reduced-motion:reduce){*{scroll-behavior:auto}}
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div>
+      <div class="kicker">Rakshak ID · Week 1 · 5–11 October 2026</div>
+      <h1>Content Board · <em>The Why begins</em></h1>
+      <p class="sub">Phase 1: Culture of Gratitude. Nothing goes live until you tap Approve. Approved posts are scheduled to Instagram, Facebook and YouTube.</p>
+    </div>
+    <div class="tally" id="tally"><span><b id="t-ok">0</b> approved</span><span><b id="t-ch">0</b> changes</span><span><b id="t-no">0</b> rejected</span><span><b id="t-pe">7</b> waiting</span></div>
+  </header>
+  <p class="how">Swipe the images to see every slide. Switch between the English and Hindi caption. Then choose Approve, Request changes (tell me what to change) or Reject.</p>
+  <p class="conn" id="conn">Connecting to the approval store…</p>
+  <main id="list"></main>
+  <footer>Links: Facebook and YouTube captions carry a clickable https://rakshakid.com. Instagram does not allow links in post captions, so every Instagram post points to the link in the @rakshakid bio. All times IST. Captions are posted as English first, then Hindi, then hashtags. Rakshak ID is a private initiative, not affiliated with the Ministry of Defence.</footer>
+</div>
+
+<script>
+const TAGS = "#RakshakID #CultureOfGratitude #IndianVeterans #FaujiParivar #VeerNari #ThankYouForYourService #VijayDiwas #JaiHind";
+const POSTS = [
+ {id:"w1-s1", day:"Mon 5 Oct", time:"09:00", format:"Story", nets:["Instagram","Facebook"], title:"Countdown: 72 days to Vijay Diwas",
+  why:"Opens the week and starts the launch countdown habit.", media:["media/s1_countdown.png"], story:true,
+  en:"(Stories carry no caption. The image says it all.)", hi:"(स्टोरी पर कैप्शन नहीं जाता।)", tags:""},
+ {id:"w1-p1", day:"Mon 5 Oct", time:"19:30", format:"Carousel · 6 slides", nets:["Instagram","Facebook"], title:"Culture of Gratitude 1/6: The World",
+  why:"Series opener. Names the gap: gratitude elsewhere is a daily habit; here it shows up on a few days a year.",
+  media:["media/p1_world_1.png","media/p1_world_2.png","media/p1_world_3.png","media/p1_world_4.png","media/p1_world_5.png","media/p1_world_6.png"],
+  en:`In many nations, a veteran hears "Thank you for your service" at the shop counter, the hospital desk and the airport gate. Every single day.
+
+In Bharat, our respect for the uniform runs deeper than anyone's. But it shows up on a few days of the year, and then it goes quiet.
+
+A soldier gives his best years to the nation. The nation's thank-you should last his whole life.
+
+That is the Culture of Gratitude. Rakshak ID is built to make it visible, at every counter, every day.
+
+Part 1 of 6. Follow @rakshakid for the series.
+Register early → https://rakshakid.com (link in bio)`,
+  hi:`कई देशों में एक पूर्व सैनिक हर दिन सुनता है: "आपकी सेवा के लिए धन्यवाद।" दुकान पर, अस्पताल में, एयरपोर्ट पर।
+
+भारत में वर्दी के प्रति सम्मान सबसे गहरा है। लेकिन यह साल के कुछ ही दिनों में दिखता है, और फिर ख़ामोश हो जाता है।
+
+एक सैनिक अपने सबसे अच्छे साल देश को देता है। देश का धन्यवाद उसकी पूरी ज़िंदगी चलना चाहिए।
+
+यही है कृतज्ञता की संस्कृति। जल्दी रजिस्टर करें → https://rakshakid.com`, tags:TAGS},
+ {id:"w1-p2", day:"Tue 6 Oct", time:"19:30", format:"Image · Founder quote", nets:["Instagram","Facebook"], title:"From the Founder",
+  why:"Puts your face and your words behind the mission, in your own line from the website.", media:["media/p2_founder.png"],
+  en:`"Our countrymen respect the uniform deeply, yet that respect shows up on three or four days of the calendar. I want our children to watch Bharat thank its soldiers at every shop and every counter, every single day."
+Col Arvind Vannur, Veteran · Founder, Rakshak ID
+
+A child who sees a veteran honoured in ordinary life learns what service means. That is why Rakshak ID exists.
+
+Register early → https://rakshakid.com (link in bio)`,
+  hi:`"देशवासी वर्दी का बहुत सम्मान करते हैं, लेकिन वह सम्मान साल के तीन-चार दिन ही दिखता है। मैं चाहता हूँ कि हमारे बच्चे देखें कि भारत हर दुकान, हर काउंटर पर, हर दिन अपने सैनिकों का धन्यवाद करता है।"
+कर्नल अरविंद वन्नूर, वेटरन · संस्थापक, रक्षक ID`, tags:TAGS},
+ {id:"w1-s2", day:"Wed 7 Oct", time:"09:00", format:"Story", nets:["Instagram","Facebook"], title:"Register Early: one app for the Armed Forces family",
+  why:"Mid-week reminder that drives people to the website.", media:["media/s2_register.png"], story:true,
+  en:"(Stories carry no caption.)", hi:"(स्टोरी पर कैप्शन नहीं जाता।)", tags:""},
+ {id:"w1-p3", day:"Thu 8 Oct", time:"09:00", format:"Image · Occasion", nets:["Instagram","Facebook"], title:"Indian Air Force Day",
+  why:"A thank-you on the day itself, to air warriors and their families. Soft call to action only.", media:["media/p3_airforce.png"],
+  en:`Nabhah Sparsham Deeptam. Touch the sky with glory.
+
+On Indian Air Force Day, to every air warrior who served Bharat, and to every family that waited through every sortie and every posting: thank you.
+
+Rakshak ID is one app for India's Armed Forces family. Register early → https://rakshakid.com`,
+  hi:`नभः स्पृशं दीप्तम्।
+भारतीय वायु सेना दिवस पर हर वायु योद्धा और उनके परिवार को धन्यवाद।`,
+  tags:"#AirForceDay #IndianAirForce #IAF #RakshakID #CultureOfGratitude #IndianVeterans #JaiHind"},
+ {id:"w1-p4", day:"Fri 9 Oct", time:"19:30", format:"Carousel · 5 slides", nets:["Instagram","Facebook"], title:"Culture of Gratitude 2/6: The Why",
+  why:"The family's sacrifice. Brings in Veer Naris, Rakshak Naris, children and parents.",
+  media:["media/p4_why_1.png","media/p4_why_2.png","media/p4_why_3.png","media/p4_why_4.png","media/p4_why_5.png"],
+  en:`Why should a soldier's thank-you last only one day?
+
+A new posting every few years. Children changing schools again and again. A spouse holding the home together through every silence. Parents who sent their son to the border.
+
+Service is never a solo act. The whole family serves. So the thank-you must reach all of them: the Veteran, the Veer Nari, the Rakshak Nari, the children and the parents. And it must last a lifetime.
+
+Part 2 of 6, Culture of Gratitude.
+Register early → https://rakshakid.com (link in bio)`,
+  hi:`एक सैनिक का धन्यवाद सिर्फ़ एक दिन क्यों?
+
+हर कुछ साल में नई पोस्टिंग। बार-बार स्कूल बदलते बच्चे। हर ख़ामोशी में घर संभालती पत्नी। सरहद पर बेटे को भेजने वाले माता-पिता।
+
+पूरा परिवार देश की सेवा करता है। इसलिए धन्यवाद सबको मिलना चाहिए, और पूरी ज़िंदगी।`, tags:TAGS},
+ {id:"w1-r1", day:"Sun 11 Oct", time:"11:00", format:"Reel + YouTube Short · 15 s", nets:["Instagram","Facebook","YouTube"], title:"You stood for Bharat. Now Bharat stands with you.",
+  why:"Animated text, no filming. Carries the brand line and the launch date to non-followers.", media:["media/reel_you_stood_for_bharat.mp4"], video:true, story:true,
+  ytTitle:"You stood for Bharat. Now Bharat stands with you. | Rakshak ID #Shorts",
+  en:`You stood for Bharat. Now Bharat stands with you. 🇮🇳
+
+Rakshak ID is one app for India's Armed Forces family: privileges, brotherhood and opportunity. Launching on Vijay Diwas, 16 December.
+
+Register early. Early members get extra privileges at launch → https://rakshakid.com`,
+  hi:`आप भारत के लिए खड़े रहे। अब भारत आपके साथ खड़ा है।
+16 दिसंबर, विजय दिवस पर लॉन्च। जल्दी रजिस्टर करें → https://rakshakid.com`, tags:TAGS},
+];
+
+const STATUS_TEXT = {pending:"Waiting for you", approved:"Approved", changes:"Changes requested", rejected:"Rejected"};
+let decisions = {}; let db = null; let canWrite = true; const openNote = {}; const tab = {};
+
+const esc = s => s.replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+function mediaHTML(p){
+  const items = p.media.map((m,i)=> p.video
+    ? `<video src="${m}" controls playsinline preload="metadata" poster="media/reel_0.png"></video>`
+    : `<img src="${m}" alt="${esc(p.title)}, slide ${i+1}" loading="lazy">`).join("");
+  return `<div class="strip ${p.story?'story':''}">${items}</div>${p.media.length>1?`<div class="count">${p.media.length} slides · swipe →</div>`:""}`;
+}
+
+function cardHTML(p){
+  const d = decisions[p.id] || {status:"pending"}; const st = d.status || "pending"; const t = tab[p.id] || "en";
+  const note = openNote[p.id];
+  return `<article class="card" data-status="${st}" id="${p.id}">
+    <div class="media">${mediaHTML(p)}</div>
+    <div class="info">
+      <div class="meta"><span class="chip">${p.time} IST</span><span class="chip">${esc(p.format)}</span>${p.nets.map(n=>`<span class="chip net">${n}</span>`).join("")}<span class="pill ${st}">${STATUS_TEXT[st]}</span></div>
+      <h2>${esc(p.title)}</h2>
+      <p class="why">${esc(p.why)}</p>
+      <div class="tabs" role="tablist">
+        <button role="tab" aria-selected="${t==='en'}" data-tab="en" data-id="${p.id}">English</button>
+        <button role="tab" aria-selected="${t==='hi'}" data-tab="hi" data-id="${p.id}">हिंदी</button>
+      </div>
+      <div class="cap ${t==='hi'?'hi':''}">${esc(t==='en'?p.en:p.hi)}</div>
+      ${p.tags?`<div class="tags">${esc(p.tags)}</div>`:""}
+      ${p.ytTitle?`<div class="yt"><b>YouTube title:</b> ${esc(p.ytTitle)}</div>`:""}
+      ${d.note && st==="changes" ? `<div class="saved-note"><b>Your note:</b> ${esc(d.note)}</div>`:""}
+      ${note!==undefined ? `<div class="notebox"><label for="note-${p.id}" class="ro">What should I change?</label>
+          <textarea id="note-${p.id}" data-id="${p.id}">${esc(note)}</textarea>
+          <div class="actions"><button class="btn approve" data-act="send" data-id="${p.id}">Send to Claude</button><button class="btn" data-act="cancel" data-id="${p.id}">Cancel</button></div></div>`
+        : `<div class="actions">
+          <button class="btn approve" data-act="approved" data-id="${p.id}" ${!db||!canWrite?'disabled':''}>${st==='approved'?'Approved ✓':'Approve'}</button>
+          <button class="btn" data-act="changes" data-id="${p.id}" ${!db||!canWrite?'disabled':''}>Request changes</button>
+          <button class="btn" data-act="rejected" data-id="${p.id}" ${!db||!canWrite?'disabled':''}>Reject</button>
+          ${st!=='pending'?`<button class="btn" data-act="pending" data-id="${p.id}" ${!db||!canWrite?'disabled':''}>Undo</button>`:""}
+        </div>`}
+    </div></article>`;
+}
+
+function render(){
+  let html = ""; let lastDay = "";
+  for (const p of POSTS){ if (p.day!==lastDay){ html += `<div class="day">${p.day}</div>`; lastDay = p.day; } html += cardHTML(p); }
+  document.getElementById("list").innerHTML = html;
+  const c = {approved:0,changes:0,rejected:0,pending:0};
+  POSTS.forEach(p=>c[(decisions[p.id]||{}).status||"pending"]++);
+  document.getElementById("t-ok").textContent=c.approved; document.getElementById("t-ch").textContent=c.changes;
+  document.getElementById("t-no").textContent=c.rejected; document.getElementById("t-pe").textContent=c.pending;
+}
+
+async function save(id, status, note){
+  if(!db) return;
+  try{ await db.doc("decisions/"+id).set({status, note: note||"", updatedAt: new Date().toISOString()}); }
+  catch(e){ document.getElementById("conn").textContent = "Could not save that choice. Please try again in a moment."; }
+}
+
+document.addEventListener("click", e=>{
+  const b = e.target.closest("button"); if(!b) return;
+  const id = b.dataset.id;
+  if (b.dataset.tab){ tab[id]=b.dataset.tab; render(); return; }
+  const act = b.dataset.act; if(!act) return;
+  if (act==="changes"){ openNote[id] = (decisions[id]||{}).note || ""; render(); document.getElementById("note-"+id)?.focus(); return; }
+  if (act==="cancel"){ delete openNote[id]; render(); return; }
+  if (act==="send"){ const v = document.getElementById("note-"+id).value.trim(); delete openNote[id];
+    decisions[id] = {status:"changes", note:v}; render(); save(id,"changes",v); return; }
+  decisions[id] = {status:act, note:""}; render(); save(id, act, "");
+});
+document.addEventListener("input", e=>{ if(e.target.matches("textarea[data-id]")) openNote[e.target.dataset.id]=e.target.value; });
+
+render();
+(async()=>{
+  const conn = document.getElementById("conn");
+  db = await (window.claude?.use ? window.claude.use("db") : null);
+  if(!db){ conn.textContent = "Approvals are unavailable in this view. Open the board while signed in to Claude."; render(); return; }
+  try{ const user = await claude.use("user"); const w = user ? await user.can("data.write") : null; if (w===false) canWrite=false; }catch(_){}
+  conn.textContent = canWrite ? "Connected. Your choices save instantly and Claude reads them." : "View only. Only the owner can approve posts.";
+  db.collection("decisions").onSnapshot(snap=>{
+    decisions = {}; snap.docs.forEach(d=>{ decisions[d.id] = d.data()||{}; }); render();
+  }, ()=>{ conn.textContent = "Lost connection to the approval store. Reload the page."; });
+  render();
+})();
+</script>
