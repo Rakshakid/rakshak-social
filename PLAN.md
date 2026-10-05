@@ -31,7 +31,8 @@ Dates to use: Air Force Day 8 Oct, Infantry Day 27 Oct, Diwali 8 Nov, Navy Day 4
 ## Weekly output
 - Until 15 Nov: NO filmed reels (founder's decision). Use carousels, image cards, stories, and 1-2 animated-text reels per week (no filming).
 - From 16 Nov: 2-3 filmed reels per week (send the founder a shot list and scripts; he films) plus founder long-form YouTube every 2 weeks.
-- Typical week before 16 Nov: 2 carousels, 1-2 image cards, 2 stories, 1 animated-text reel (also posted as a YouTube Short). About 7 items.
+- Typical week before 16 Nov: 2 carousels, 1-2 image cards, a story EVERY day (7: countdown, a fact, Rakshak Nari of the week, register reminder, etc.), 2 animated-text reels (also posted as YouTube Shorts), 2 LinkedIn posts. About 14 items.
+- LinkedIn (approved 5 Oct): 2 posts a week (Tue and Thu 09:30 IST) on the founder's PERSONAL profile, written in first person as Col Arvind Vannur, Veteran. Audience: bank heads, brand partners, investors, corporate veterans. Text-led (150-250 words, English only), one image (reuse a week's card or a simple quote card), drawn from the Story Bank or the build journey. Provider 'linkedin', linkedinData {type: 'post'}. Never reveal deal terms or name partners before the founder confirms.
 - Every Instagram item also goes to Facebook (RakshakId Page). Reels also go to YouTube as Shorts.
 - Times IST: feed posts 19:30, stories 09:00, reels 11:00 on Sundays, occasion posts 09:00 on the day.
 
