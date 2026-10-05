@@ -43,3 +43,13 @@ Dates to use: Air Force Day 8 Oct, Infantry Day 27 Oct, Diwali 8 Nov, Navy Day 4
 - Never "Founding Member", "first 1,00,000" or "Free for Life". Use "Register early. Early members get extra privileges at launch."
 - English and Hindi on every post. Instagram captions cannot hold clickable links: say "link in bio". Facebook/YouTube captions use https://rakshakid.com.
 - Keep wording plain and dignified, especially for Veer Nari content.
+
+## Founder Story Bank (use from Week 2)
+The founder has dictated stories for content. Build founder-voice carousels and quote cards from them until 15 Nov, and filmed reel scripts from 16 Nov. One story-based item per week minimum. Always write in his voice, plainly.
+1 Gratitude (US): friends who trained in the US told him how a military ID earned "Thank you for your service" everywhere; the point was never the money but feeling honoured by strangers. Post-Kargil youth never saw coffins come home; teach gratitude through everyday moments at shops and counters. (He did not train in the US himself; never say he did.)
+2 Legacy: a coursemate, a great connector, passed away days after committing to Rakshak. Legacy is the relationships you built; Rakshak keeps a family's network alive (e.g. a daughter asking "Uncle" for an internship). NEVER name the coursemate unless the founder confirms family consent.
+3 Rakshak Nari: the most neglected; daily fear of the unknown; why wait until she becomes a Veer Nari to give her samman? Her own verified identity, not a dependent card; enterprising wives deserve fair loans. Ask Rakshak Naris to comment with ideas; he reads every comment.
+4 Influencers & community: build forces content creators; "divided we lose, united we get opportunities"; micro-communities pooling for opportunities.
+5 Agniveer: same privileges as any veteran because they wore the uniform; most vulnerable in the first years; "never leave a man behind". Do not debate the scheme itself.
+6 CAPF: Assam Rifles, Coast Guard, DSC, BSF, CRPF, CISF, ITBP, SSB, NDRF are soldiers too; more members means more bargaining power for everyone (Longewala anecdote).
+Rules: verify any figure before use (e.g. "7 lakh Veer Naris"); no promises of help or outcomes (say "you have a platform", not "help will come"); no political comment.
