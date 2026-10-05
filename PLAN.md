@@ -29,8 +29,9 @@ Dates to use: Air Force Day 8 Oct, Infantry Day 27 Oct, Diwali 8 Nov, Navy Day 4
 #ThankYouForYourService public campaign: launch at Diwali (W5/W6), peak on Flag Day. Invite citizens and children to thank a veteran on camera and tag @rakshakid (parental consent needed for children).
 
 ## Weekly output
-- Until 15 Nov: NO filmed reels (founder's decision). Use carousels, image cards, stories, and 1-2 animated-text reels per week (no filming).
-- From 16 Nov: 2-3 filmed reels per week (send the founder a shot list and scripts; he films) plus founder long-form YouTube every 2 weeks.
+- UPDATED 5 Oct: the founder is ready to film himself now. From Week 2, include ONE founder video reel per week (45-60 s, him speaking to camera, from the Story Bank). Each Saturday draft must include that week's script (EN, with a Hindi version he may speak instead) and a short filming brief. He sends the raw video in a Claude chat; the session that receives it edits it (trim, burned-in captions EN+HI, lion end card with rakshakid.com), uploads to weeks/<week>/, adds it to the board for approval. Week 2's first video: Story 1 'Thank you for your service' (script already given to him on 5 Oct).
+- Plus 2 animated-text reels per week (no filming).
+- From 16 Nov: step up to 2-3 filmed reels per week (send the founder a shot list and scripts; he films) plus founder long-form YouTube every 2 weeks.
 - Typical week before 16 Nov: 2 carousels, 1-2 image cards, a story EVERY day (7: countdown, a fact, Rakshak Nari of the week, register reminder, etc.), 2 animated-text reels (also posted as YouTube Shorts), 2 LinkedIn posts. About 14 items.
 - LinkedIn (approved 5 Oct): 2 posts a week (Tue and Thu 09:30 IST) on the founder's PERSONAL profile, written in first person as Col Arvind Vannur, Veteran. Audience: bank heads, brand partners, investors, corporate veterans. Text-led (150-250 words, English only), one image (reuse a week's card or a simple quote card), drawn from the Story Bank or the build journey. Provider 'linkedin', linkedinData {type: 'post'}. Never reveal deal terms or name partners before the founder confirms.
 - Every Instagram item also goes to Facebook (RakshakId Page). Reels also go to YouTube as Shorts.
