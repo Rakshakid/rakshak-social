@@ -154,6 +154,8 @@ async def shots():
             await pg.screenshot(path=str(OUT / f"{name}.png")); await pg.close()
         await b.close()
 
+NEW_MUSIC = {"r1_who"}  # founder asked for a different background music on 10 Oct: arpeggio track from reel_music.py
+
 def make_reel(r, n):
     D, Tr = 3.4, 0.6; total = n * D - (n - 1) * Tr
     inp = []
@@ -167,6 +169,15 @@ def make_reel(r, n):
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", *inp, "-filter_complex", ";".join(fl), "-map", "[vout]", "-map", "[aout]",
         "-c:v", "libx264", "-crf", "20", "-pix_fmt", "yuv420p", "-r", "30", "-c:a", "aac", "-b:a", "128k", "-movflags", "+faststart",
         "-t", f"{total:.2f}", str(OUT / f"{r}.mp4")], check=True)
+    if r in NEW_MUSIC:
+        import reel_music, wave, numpy as np
+        wav = OUT / f"{r}_music.wav"; a = reel_music.make(total)
+        with wave.open(str(wav), "wb") as w:
+            w.setnchannels(2); w.setsampwidth(2); w.setframerate(reel_music.SR); w.writeframes(np.repeat(a[:, None], 2, axis=1).tobytes())
+        tmp = OUT / f"{r}_tmp.mp4"; (OUT / f"{r}.mp4").rename(tmp)
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(tmp), "-i", str(wav), "-map", "0:v", "-map", "1:a", "-c:v", "copy",
+            "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", "-shortest", str(OUT / f"{r}_v2.mp4")], check=True)
+        tmp.unlink()
 
 if __name__ == "__main__":
     asyncio.run(shots())
