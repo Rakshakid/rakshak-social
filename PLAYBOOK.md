@@ -16,16 +16,17 @@ Setup: `mkdir -p ~/.fonts && cp tools/fonts/*.ttf ~/.fonts/ && fc-cache -f`. Cop
 Convert images to JPEG (quality 93) before upload: Instagram accepts only JPEG.
 
 ## Run A: weekly drafting (Saturday evening)
+0. FIRST check whether next week is already drafted: list the board's published files (Artifact list scope files on the board URL). If data/w<N>_posts.json for next week exists, STOP and send nothing (the founder sometimes asks for an early draft).
 1. Work out next week's number and dates (Mon to Sun). Read PLAN.md for the phase, the Culture of Gratitude part due, and any dated occasions.
 2. Check last week's results with Metricool getAnalyticsDataByMetrics where available; prefer formats that did well.
 3. Write about 7 items following "Weekly output". Captions in English and Hindi plus hashtags.
-4. Render media, commit to weeks/2026-w<N>/ with posts.json, push.
+4. Render media. Do NOT push unapproved media to GitHub (the repo is public; only approved media goes there). Publish the media on the board under media/w<N>/ and the week spec as data/w<N>_posts.json.
 5. Republish the Content Board: take tools/board_template.html, replace the header (week, dates, phase) and the POSTS array with the new week's items; the artifact blocks external images, so publish the week's media files alongside the page via `files` under media/ and point src at media/<file>. Keep the db capability declaration unchanged (omit `capabilities` on republish).
 6. Tell the founder in one short message that Week N is ready for approval, with the 3-line summary of the week.
 
 ## Run B: approval sweep (twice daily)
 1. Read the `decisions` collection from the board (ArtifactData list).
-2. For each item of the current and next week whose status is approved and has no metricoolId: schedule it with createScheduledPost using posts.json (media from raw GitHub URLs; Instagram/Facebook stories carry no text; reels: instagramData.type REEL, facebookData.type REEL, youtubeData type short, madeForKids false). Then update the decision doc with metricoolId (pin if_version).
+2. For each item of the current and next week whose status is approved and has no metricoolId: fetch the week spec and media from the board (Artifact read with path data/w<N>_posts.json and media/w<N>/<file>), convert PNG to JPEG (quality 93), commit those approved files to weeks/2026-w<N>/ and push, then schedule with createScheduledPost using raw GitHub URLs. Items whose nets include LinkedIn go to provider 'linkedin' (linkedinData type post; if the item has li_doc, set documentTitle=li_doc and publishImagesAsPDF true); LinkedIn text is the item's `en` only. Instagram/Facebook text = en + '\n\n—\n\n' + hi + '\n\n' + tags. ( Instagram/Facebook stories carry no text; reels: instagramData.type REEL, facebookData.type REEL, youtubeData type short, madeForKids false). Then update the decision doc with metricoolId (pin if_version).
 3. For items with status changes: apply the founder's note, re-render, push, update posts.json, republish the board, and set the decision back to pending with note "Revised: <what changed>".
 4. Rejected items: do nothing except note them in the Monday report.
 5. If nothing to do, finish silently.

@@ -55,3 +55,10 @@ The founder has dictated stories for content. Build founder-voice carousels and 
 5 Agniveer: same privileges as any veteran because they wore the uniform; most vulnerable in the first years; "never leave a man behind". Do not debate the scheme itself.
 6 CAPF: Assam Rifles, Coast Guard, DSC, BSF, CRPF, CISF, ITBP, SSB, NDRF are soldiers too; more members means more bargaining power for everyone (Longewala anecdote).
 Rules: verify any figure before use (e.g. "7 lakh Veer Naris"); no promises of help or outcomes (say "you have a platform", not "help will come"); no political comment.
+
+## Positioning update (founder, Oct 2026)
+- Daily-need discounts are NOT the differentiator (defence credit cards already give them). Lead with underserved big-ticket needs: education loans, children's weddings, medical costs not covered by ECHS, home construction materials, financial products. No partners are signed in these yet: always frame as "what we are working on", and invite families to say what else to include.
+- Never frame Rakshak ID as "just another ID card" (veterans already carry ECHS, CSD, veteran cards, PPO). Never compare it point by point with ID.me.
+- 5 Instagram feed posts a week plus a daily story. Launch target: 10,000 registrations by 16 Dec.
+- Priority stories: Rakshak Nari "Dependent" and Story 7 (brands trust the uniform: 100+ brands came on board in two days). Story 8 (Subedar Tanaji Patel's daughter, education sponsorship) and Story 2 need family consent before use.
+- Use "pinned the medals on his chest", never stars or other rank insignia, so content includes jawans' families and keeps the no-ranks rule.
