@@ -68,11 +68,11 @@ footer{margin-top:40px;color:var(--faint);font-size:13.5px;border-top:1px solid 
 <div class="wrap">
   <header class="top">
     <div>
-      <div class="kicker">Rakshak ID · Week 1 · 5–11 October 2026</div>
-      <h1>Content Board · <em>The Why begins</em></h1>
-      <p class="sub">Phase 1: Culture of Gratitude. Nothing goes live until you tap Approve. Approved posts are scheduled to Instagram, Facebook and YouTube.</p>
+      <div class="kicker">Rakshak ID · Week 2 · 12–18 October 2026</div>
+      <h1>Content Board · <em>Beyond discounts</em></h1>
+      <p class="sub">Phase 1: Culture of Gratitude, parts 3 and 4, plus the Rakshak Nari story and your LinkedIn voice. Nothing goes live until you tap Approve. Your founder video joins the week as soon as you send it.</p>
     </div>
-    <div class="tally" id="tally"><span><b id="t-ok">0</b> approved</span><span><b id="t-ch">0</b> changes</span><span><b id="t-no">0</b> rejected</span><span><b id="t-pe">7</b> waiting</span></div>
+    <div class="tally" id="tally"><span><b id="t-ok">0</b> approved</span><span><b id="t-ch">0</b> changes</span><span><b id="t-no">0</b> rejected</span><span><b id="t-pe">14</b> waiting</span></div>
   </header>
   <p class="how">Swipe the images to see every slide. Switch between the English and Hindi caption. Then choose Approve, Request changes (tell me what to change) or Reject.</p>
   <p class="conn" id="conn">Connecting to the approval store…</p>
@@ -81,81 +81,7 @@ footer{margin-top:40px;color:var(--faint);font-size:13.5px;border-top:1px solid 
 </div>
 
 <script>
-const TAGS = "#RakshakID #CultureOfGratitude #IndianVeterans #FaujiParivar #VeerNari #ThankYouForYourService #VijayDiwas #JaiHind";
-const POSTS = [
- {id:"w1-s1", day:"Mon 5 Oct", time:"09:00", format:"Story", nets:["Instagram","Facebook"], title:"Countdown: 72 days to Vijay Diwas",
-  why:"Opens the week and starts the launch countdown habit.", media:["media/s1_countdown.png"], story:true,
-  en:"(Stories carry no caption. The image says it all.)", hi:"(स्टोरी पर कैप्शन नहीं जाता।)", tags:""},
- {id:"w1-p1", day:"Mon 5 Oct", time:"19:30", format:"Carousel · 6 slides", nets:["Instagram","Facebook"], title:"Culture of Gratitude 1/6: The World",
-  why:"Series opener. Names the gap: gratitude elsewhere is a daily habit; here it shows up on a few days a year.",
-  media:["media/p1_world_1.png","media/p1_world_2.png","media/p1_world_3.png","media/p1_world_4.png","media/p1_world_5.png","media/p1_world_6.png"],
-  en:`In many nations, a veteran hears "Thank you for your service" at the shop counter, the hospital desk and the airport gate. Every single day.
-
-In Bharat, our respect for the uniform runs deeper than anyone's. But it shows up on a few days of the year, and then it goes quiet.
-
-A soldier gives his best years to the nation. The nation's thank-you should last his whole life.
-
-That is the Culture of Gratitude. Rakshak ID is built to make it visible, at every counter, every day.
-
-Part 1 of 6. Follow @rakshakid for the series.
-Register early → https://rakshakid.com (link in bio)`,
-  hi:`कई देशों में एक पूर्व सैनिक हर दिन सुनता है: "आपकी सेवा के लिए धन्यवाद।" दुकान पर, अस्पताल में, एयरपोर्ट पर।
-
-भारत में वर्दी के प्रति सम्मान सबसे गहरा है। लेकिन यह साल के कुछ ही दिनों में दिखता है, और फिर ख़ामोश हो जाता है।
-
-एक सैनिक अपने सबसे अच्छे साल देश को देता है। देश का धन्यवाद उसकी पूरी ज़िंदगी चलना चाहिए।
-
-यही है कृतज्ञता की संस्कृति। जल्दी रजिस्टर करें → https://rakshakid.com`, tags:TAGS},
- {id:"w1-p2", day:"Tue 6 Oct", time:"19:30", format:"Image · Founder quote", nets:["Instagram","Facebook"], title:"From the Founder",
-  why:"Puts your face and your words behind the mission, in your own line from the website.", media:["media/p2_founder.png"],
-  en:`"Our countrymen respect the uniform deeply, yet that respect shows up on three or four days of the calendar. I want our children to watch Bharat thank its soldiers at every shop and every counter, every single day."
-Col Arvind Vannur, Veteran · Founder, Rakshak ID
-
-A child who sees a veteran honoured in ordinary life learns what service means. That is why Rakshak ID exists.
-
-Register early → https://rakshakid.com (link in bio)`,
-  hi:`"देशवासी वर्दी का बहुत सम्मान करते हैं, लेकिन वह सम्मान साल के तीन-चार दिन ही दिखता है। मैं चाहता हूँ कि हमारे बच्चे देखें कि भारत हर दुकान, हर काउंटर पर, हर दिन अपने सैनिकों का धन्यवाद करता है।"
-कर्नल अरविंद वन्नूर, वेटरन · संस्थापक, रक्षक ID`, tags:TAGS},
- {id:"w1-s2", day:"Wed 7 Oct", time:"09:00", format:"Story", nets:["Instagram","Facebook"], title:"Register Early: one app for the Armed Forces family",
-  why:"Mid-week reminder that drives people to the website.", media:["media/s2_register.png"], story:true,
-  en:"(Stories carry no caption.)", hi:"(स्टोरी पर कैप्शन नहीं जाता।)", tags:""},
- {id:"w1-p3", day:"Thu 8 Oct", time:"09:00", format:"Image · Occasion", nets:["Instagram","Facebook"], title:"Indian Air Force Day",
-  why:"A thank-you on the day itself, to air warriors and their families. Soft call to action only.", media:["media/p3_airforce.png"],
-  en:`Nabhah Sparsham Deeptam. Touch the sky with glory.
-
-On Indian Air Force Day, to every air warrior who served Bharat, and to every family that waited through every sortie and every posting: thank you.
-
-Rakshak ID is one app for India's Armed Forces family. Register early → https://rakshakid.com`,
-  hi:`नभः स्पृशं दीप्तम्।
-भारतीय वायु सेना दिवस पर हर वायु योद्धा और उनके परिवार को धन्यवाद।`,
-  tags:"#AirForceDay #IndianAirForce #IAF #RakshakID #CultureOfGratitude #IndianVeterans #JaiHind"},
- {id:"w1-p4", day:"Fri 9 Oct", time:"19:30", format:"Carousel · 5 slides", nets:["Instagram","Facebook"], title:"Culture of Gratitude 2/6: The Why",
-  why:"The family's sacrifice. Brings in Veer Naris, Rakshak Naris, children and parents.",
-  media:["media/p4_why_1.png","media/p4_why_2.png","media/p4_why_3.png","media/p4_why_4.png","media/p4_why_5.png"],
-  en:`Why should a soldier's thank-you last only one day?
-
-A new posting every few years. Children changing schools again and again. A spouse holding the home together through every silence. Parents who sent their son to the border.
-
-Service is never a solo act. The whole family serves. So the thank-you must reach all of them: the Veteran, the Veer Nari, the Rakshak Nari, the children and the parents. And it must last a lifetime.
-
-Part 2 of 6, Culture of Gratitude.
-Register early → https://rakshakid.com (link in bio)`,
-  hi:`एक सैनिक का धन्यवाद सिर्फ़ एक दिन क्यों?
-
-हर कुछ साल में नई पोस्टिंग। बार-बार स्कूल बदलते बच्चे। हर ख़ामोशी में घर संभालती पत्नी। सरहद पर बेटे को भेजने वाले माता-पिता।
-
-पूरा परिवार देश की सेवा करता है। इसलिए धन्यवाद सबको मिलना चाहिए, और पूरी ज़िंदगी।`, tags:TAGS},
- {id:"w1-r1", day:"Sun 11 Oct", time:"11:00", format:"Reel + YouTube Short · 15 s", nets:["Instagram","Facebook","YouTube"], title:"You stood for Bharat. Now Bharat stands with you.",
-  why:"Animated text, no filming. Carries the brand line and the launch date to non-followers.", media:["media/reel_you_stood_for_bharat.mp4"], video:true, story:true,
-  ytTitle:"You stood for Bharat. Now Bharat stands with you. | Rakshak ID #Shorts",
-  en:`You stood for Bharat. Now Bharat stands with you. 🇮🇳
-
-Rakshak ID is one app for India's Armed Forces family: privileges, brotherhood and opportunity. Launching on Vijay Diwas, 16 December.
-
-Register early. Early members get extra privileges at launch → https://rakshakid.com`,
-  hi:`आप भारत के लिए खड़े रहे। अब भारत आपके साथ खड़ा है।
-16 दिसंबर, विजय दिवस पर लॉन्च। जल्दी रजिस्टर करें → https://rakshakid.com`, tags:TAGS},
-];
+const POSTS = [{"id": "w2-s1", "day": "Mon 12 Oct", "date": "2026-10-12", "time": "09:00", "format": "Story", "nets": ["Instagram", "Facebook"], "title": "Countdown: 65 days to Vijay Diwas", "why": "Keeps the daily countdown habit.", "media": ["media/w2/s1_count65.png"], "story": true, "ig_type": "STORY", "fb_type": "STORY", "en": "(Stories carry no caption.)", "hi": "(स्टोरी पर कैप्शन नहीं जाता।)", "tags": ""}, {"id": "w2-p1", "day": "Mon 12 Oct", "date": "2026-10-12", "time": "19:30", "format": "Carousel · 5 slides", "nets": ["Instagram", "Facebook"], "title": "Culture of Gratitude 3/6: The How", "why": "Turns respect into action, and makes clear Rakshak ID is not 'another card'.", "media": ["media/w2/p1_how_1.png", "media/w2/p1_how_2.png", "media/w2/p1_how_3.png", "media/w2/p1_how_4.png", "media/w2/p1_how_5.png"], "ig_type": "POST", "fb_type": "POST", "en": "Everyone respects the uniform. Very few ever get a chance to show it.\n\nRespect that stays silent changes nothing. Gratitude needs a way to show up: a shopkeeper who knows you served, a bank that values your service, a school desk that welcomes a fauji parivar.\n\nRakshak ID is not another card for your wallet. It is the fauji parivar, 2.5 crore strong, made visible, so that brands, banks and institutions can finally honour it.\n\nPart 3 of 6, Culture of Gratitude.\nRegister early → https://rakshakid.com (link in bio)", "hi": "हर कोई वर्दी का सम्मान करता है। पर बहुत कम लोगों को उसे दिखाने का मौका मिलता है।\n\nचुप रहने वाला सम्मान कुछ नहीं बदलता। रक्षक ID एक और कार्ड नहीं है। यह 2.5 करोड़ का फ़ौजी परिवार है, जिसे अब सब देख और सम्मान दे सकेंगे।\n\nजल्दी रजिस्टर करें → https://rakshakid.com", "tags": "#RakshakID #CultureOfGratitude #IndianVeterans #FaujiParivar #VeerNari #RakshakNari #VijayDiwas #JaiHind"}, {"id": "w2-s2", "day": "Tue 13 Oct", "date": "2026-10-13", "time": "09:00", "format": "Story", "nets": ["Instagram", "Facebook"], "title": "What matters most to your family? Reply 1–4", "why": "Starts conversations in DMs and tells us what families care about most.", "media": ["media/w2/s2_matters.png"], "story": true, "ig_type": "STORY", "fb_type": "STORY", "en": "(Stories carry no caption.)", "hi": "(स्टोरी पर कैप्शन नहीं जाता।)", "tags": ""}, {"id": "w2-l1", "day": "Tue 13 Oct", "date": "2026-10-13", "time": "09:30", "format": "LinkedIn · your voice", "nets": ["LinkedIn"], "title": "Brands trust the uniform (Story 7)", "why": "For brand partners and bankers: shows brands are already coming on board.", "media": ["media/w2/li1_brands.png"], "li": true, "en": "When I first imagined Rakshak ID, two fears kept me awake. Would the members come? And would the brands come?\n\nThe second worried me more. Brands show great respect for soldiers in their advertisements. But at the end of the day, brands look at numbers.\n\nThen, through a friend still in service, I was introduced to the right people. Within two days, more than 100 brands had agreed to come on board. Two days earlier, I had been worried that no one would.\n\nWhat changed their minds was not a pitch deck. It was trust. The armed forces are among the most trusted institutions in India, not only for citizens but for businesses too. Fauji families are honest, disciplined and lead stable lives. It is a community every brand respects, and almost none has truly served.\n\nThat is the gap Rakshak ID fills: a verified way for brands to honour those who served, and their families, at every counter.\n\nWe launch on Vijay Diwas, 16 December. If your brand would like to be part of it, write to partners@rakshakid.com\n\n#RakshakID #CultureOfGratitude #Veterans #Partnerships", "hi": "(LinkedIn: English only.)", "tags": ""}, {"id": "w2-r1", "day": "Tue 13 Oct", "date": "2026-10-13", "time": "19:30", "format": "Reel + YouTube Short · 15 s", "nets": ["Instagram", "Facebook", "YouTube"], "title": "Who is a Rakshak?", "why": "Animated, no filming. Holds the slot until your founder video arrives.", "media": ["media/w2/r1_who.mp4"], "video": true, "story": true, "poster": "media/w2/r1_who_s0.png", "ig_type": "REEL", "fb_type": "REEL", "yt_title": "Who is a Rakshak? | Rakshak ID #Shorts", "en": "Who is a Rakshak?\n\nEveryone who wore the uniform: Army, Navy, Air Force, CAPF, Assam Rifles, Coast Guard, DSC. And everyone who stood behind them: Veer Naris, Rakshak Naris, parents, children, Agniveers.\n\n2.5 crore. One parivar. 🇮🇳\n\nRegister early → https://rakshakid.com", "hi": "रक्षक कौन है? हर वो जिसने वर्दी पहनी, और हर वो जो उनके पीछे खड़ा रहा। 2.5 करोड़। एक परिवार।", "tags": "#RakshakID #CultureOfGratitude #IndianVeterans #FaujiParivar #VeerNari #RakshakNari #VijayDiwas #JaiHind", "ytTitle": "Who is a Rakshak? | Rakshak ID #Shorts"}, {"id": "w2-s3", "day": "Wed 14 Oct", "date": "2026-10-14", "time": "09:00", "format": "Story", "nets": ["Instagram", "Facebook"], "title": "Register Early reminder", "why": "Mid-week push to the website (reuses last week's design).", "media": ["media/w2/s3_register.png"], "story": true, "ig_type": "STORY", "fb_type": "STORY", "en": "(Stories carry no caption.)", "hi": "(स्टोरी पर कैप्शन नहीं जाता।)", "tags": ""}, {"id": "w2-p3", "day": "Wed 14 Oct", "date": "2026-10-14", "time": "19:30", "format": "Carousel · 6 slides", "nets": ["Instagram", "Facebook"], "title": "Beyond discounts: the big moments", "why": "Your new positioning: big-ticket needs, honestly framed as 'working on'. Asks families what else to fight for.", "media": ["media/w2/p3_beyond_1.png", "media/w2/p3_beyond_2.png", "media/w2/p3_beyond_3.png", "media/w2/p3_beyond_4.png", "media/w2/p3_beyond_5.png", "media/w2/p3_beyond_6.png"], "ig_type": "POST", "fb_type": "POST", "en": "A discount on coffee is nice. It is not what keeps a fauji family awake at night.\n\nA child's higher education. A son's or daughter's wedding. Medical bills ECHS does not cover. Building the house after retirement. A fair loan without a wall of paperwork.\n\nGovernment provides pension, ECHS and CSD. For the big moments beyond that, every family is on its own.\n\nThis is what Rakshak ID is working on, with banks and partners. Nothing is promised until it is signed, and we will tell you when it is. The bigger our parivar, the stronger our bargain.\n\nWhat else should we fight for? Tell us in the comments. I read every one.\nRegister early → https://rakshakid.com (link in bio)", "hi": "कॉफ़ी पर छूट अच्छी है, पर फ़ौजी परिवार की असली चिंता कुछ और है: बच्चों की पढ़ाई, शादी, ECHS से बाहर का इलाज, रिटायरमेंट के बाद घर।\n\nरक्षक ID इन्हीं पर काम कर रहा है। जितना बड़ा परिवार, उतनी मज़बूत आवाज़। आपके परिवार को और क्या चाहिए? कमेंट में बताइए।", "tags": "#RakshakID #CultureOfGratitude #IndianVeterans #FaujiParivar #VeerNari #RakshakNari #VijayDiwas #JaiHind"}, {"id": "w2-s4", "day": "Thu 15 Oct", "date": "2026-10-15", "time": "09:00", "format": "Story", "nets": ["Instagram", "Facebook"], "title": "CAPF families belong here too", "why": "Brings in BSF, CRPF, ITBP, SSB, CISF, NDRF, Assam Rifles, Coast Guard and DSC families.", "media": ["media/w2/s4_capf.png"], "story": true, "ig_type": "STORY", "fb_type": "STORY", "en": "(Stories carry no caption.)", "hi": "(स्टोरी पर कैप्शन नहीं जाता।)", "tags": ""}, {"id": "w2-l2", "day": "Thu 15 Oct", "date": "2026-10-15", "time": "09:30", "format": "LinkedIn · your voice", "nets": ["LinkedIn"], "title": "Who is a soldier? (Story 6)", "why": "For bankers and partners: why every uniformed force is included, and why numbers mean bargaining power.", "media": ["media/w2/li2_soldier.png"], "li": true, "en": "A banker once asked me: why have you included CAPF in Rakshak ID? Doesn't that dilute the benefits for the Army, Navy and Air Force?\n\nI asked him a question back. Who is a soldier?\n\nGo back five hundred years and the answer is simple: one who fights for his country. Our history is full of moments where every uniform stood shoulder to shoulder.\n\nThe men and women of the BSF, CRPF, ITBP, SSB, CISF, NDRF, Assam Rifles and Coast Guard serve in the same areas, often in tougher postings: remote outposts, 50 degree deserts, harder conditions. If I don't think of them, who will?\n\nHe apologised for offending me. I told him: don't be sorry for offending me. Be sorry for thinking less of my brothers.\n\nThere is a practical answer too. More members means more bargaining power. The bigger our parivar, the better the terms we can secure, for everyone.\n\nRakshak ID launches on Vijay Diwas, 16 December. https://rakshakid.com\n\n#RakshakID #CAPF #IndianVeterans #CultureOfGratitude", "hi": "(LinkedIn: English only.)", "tags": ""}, {"id": "w2-s5", "day": "Fri 16 Oct", "date": "2026-10-16", "time": "09:00", "format": "Story", "nets": ["Instagram", "Facebook"], "title": "Teaser: tonight's Rakshak Nari story", "why": "Builds anticipation for the evening post.", "media": ["media/w2/s5_nari_teaser.png"], "story": true, "ig_type": "STORY", "fb_type": "STORY", "en": "(Stories carry no caption.)", "hi": "(स्टोरी पर कैप्शन नहीं जाता।)", "tags": ""}, {"id": "w2-p4", "day": "Fri 16 Oct", "date": "2026-10-16", "time": "19:30", "format": "Carousel · 7 slides", "nets": ["Instagram", "Facebook", "LinkedIn"], "title": "Rakshak Nari: \"Dependent\"", "why": "Your priority-one story. Note: I changed 'pinned his stars' to 'pinned the medals on his chest' so it includes jawans' wives and keeps the no-ranks rule.", "media": ["media/w2/p4_nari_1.png", "media/w2/p4_nari_2.png", "media/w2/p4_nari_3.png", "media/w2/p4_nari_4.png", "media/w2/p4_nari_5.png", "media/w2/p4_nari_6.png", "media/w2/p4_nari_7.png"], "ig_type": "POST", "fb_type": "POST", "li_doc": "Rakshak Nari: Dependent", "en": "22 years. 14 postings. She packed the house 14 times, and 14 times she built a home again.\n\n2 am, a child with fever, and she is alone. 3 am, the phone rings, and her heart stops. Every single time. On the call she only says: sab theek hai.\n\nShe pinned the medals on his chest. Nothing was ever pinned on hers. Every form calls her \"dependent\". The truth is, he depended on her.\n\nShe is a Rakshak Nari: every wife and mother who stands behind a protector. Rakshak ID is being built for her too.\n\nTag your Rakshak Nari in the comments and write \"Thank you\". 🙏\nRegister before 16 December → https://rakshakid.com (link in bio)", "hi": "22 साल। 14 पोस्टिंग। 14 बार उसने घर समेटा, और 14 बार नया घर बसाया।\n\nफ़ोन पर वह बस इतना कहती है: सब ठीक है।\n\nहर फ़ॉर्म उसे \"डिपेंडेंट\" लिखता है। सच यह है कि वो उस पर निर्भर था। वह रक्षक नारी है।\n\nअपनी रक्षक नारी को टैग करें और लिखें \"धन्यवाद\"।", "tags": "#RakshakID #CultureOfGratitude #IndianVeterans #FaujiParivar #VeerNari #RakshakNari #VijayDiwas #JaiHind"}, {"id": "w2-s6", "day": "Sat 17 Oct", "date": "2026-10-17", "time": "09:00", "format": "Story", "nets": ["Instagram", "Facebook"], "title": "Who can join Rakshak ID", "why": "Answers the most common question; free to register.", "media": ["media/w2/s6_who.png"], "story": true, "ig_type": "STORY", "fb_type": "STORY", "en": "(Stories carry no caption.)", "hi": "(स्टोरी पर कैप्शन नहीं जाता।)", "tags": ""}, {"id": "w2-s7", "day": "Sun 18 Oct", "date": "2026-10-18", "time": "09:00", "format": "Story", "nets": ["Instagram", "Facebook"], "title": "Countdown: 59 days", "why": "Countdown.", "media": ["media/w2/s7_count59.png"], "story": true, "ig_type": "STORY", "fb_type": "STORY", "en": "(Stories carry no caption.)", "hi": "(स्टोरी पर कैप्शन नहीं जाता।)", "tags": ""}, {"id": "w2-r2", "day": "Sun 18 Oct", "date": "2026-10-18", "time": "11:00", "format": "Reel + YouTube Short · 15 s", "nets": ["Instagram", "Facebook", "YouTube"], "title": "Culture of Gratitude 4/6: The Where", "why": "Animated: at the chemist, the school desk, the hospital, the boardroom.", "media": ["media/w2/r2_where.mp4"], "video": true, "story": true, "poster": "media/w2/r2_where_s0.png", "ig_type": "REEL", "fb_type": "REEL", "yt_title": "Where should a soldier be thanked? | Rakshak ID #Shorts", "en": "Where should a soldier be thanked?\n\nAt the chemist. At the school desk. At the hospital. In the boardroom. Everywhere life takes him.\n\nवर्दी की शान, हर जगह सम्मान। Part 4 of 6, Culture of Gratitude.\nRegister early → https://rakshakid.com", "hi": "सैनिक का धन्यवाद कहाँ हो? दवा की दुकान पर, स्कूल में, अस्पताल में, बोर्डरूम में। हर जगह।", "tags": "#RakshakID #CultureOfGratitude #IndianVeterans #FaujiParivar #VeerNari #RakshakNari #VijayDiwas #JaiHind", "ytTitle": "Where should a soldier be thanked? | Rakshak ID #Shorts"}];
 
 const STATUS_TEXT = {pending:"Waiting for you", approved:"Approved", changes:"Changes requested", rejected:"Rejected"};
 let decisions = {}; let db = null; let canWrite = true; const openNote = {}; const tab = {};
@@ -164,7 +90,7 @@ const esc = s => s.replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'
 
 function mediaHTML(p){
   const items = p.media.map((m,i)=> p.video
-    ? `<video src="${m}" controls playsinline preload="metadata" poster="media/reel_0.png"></video>`
+    ? `<video src="${m}" controls playsinline preload="metadata" poster="${p.poster||""}"></video>`
     : `<img src="${m}" alt="${esc(p.title)}, slide ${i+1}" loading="lazy">`).join("");
   return `<div class="strip ${p.story?'story':''}">${items}</div>${p.media.length>1?`<div class="count">${p.media.length} slides · swipe →</div>`:""}`;
 }

@@ -12,7 +12,7 @@ Read PLAN.md first. Everything here is for Claude runs started by a schedule. Th
 
 ## Design system
 Black #07090D, gold #E8B547, gold-hi #F6DFA6, ivory #F6F1E7, muted #B9BDC7. Fonts: Playfair Display (headlines), DM Sans (body), DM Mono (labels), Tiro Devanagari Hindi (Hindi). Lion logo top-left at 112px, rounded frame. Feed images 1080x1350, stories/reels 1080x1920.
-Setup: `mkdir -p ~/.fonts && cp tools/fonts/*.ttf ~/.fonts/ && fc-cache -f`. Copy tools/render_week1.py to a work folder with tools/assets, replace the `slides` dict with the new week's slides (keep page/top/foot/CTA_SLIDE helpers), render with Playwright, then look at a contact sheet once and fix overlaps. Animated-text reel: adapt tools/reel_week1.py (5 scenes, crossfades, soft pad audio, ~15 s).
+Setup: `mkdir -p ~/.fonts && cp tools/fonts/*.ttf ~/.fonts/ && fc-cache -f`. Copy tools/render_lib.py (helpers) and tools/render_week2.py (latest example: carousels, stories, LinkedIn cards and animated reels; tools/captions_week2.py shows the posts.json format) to a work folder with tools/assets, replace the `slides` dict with the new week's slides (keep page/top/foot/CTA_SLIDE helpers), render with Playwright, then look at a contact sheet once and fix overlaps. Animated-text reel: adapt tools/reel_week1.py (5 scenes, crossfades, soft pad audio, ~15 s).
 Convert images to JPEG (quality 93) before upload: Instagram accepts only JPEG.
 
 ## Run A: weekly drafting (Saturday evening)
