@@ -1,0 +1,4 @@
+# Local render outputs (unapproved drafts stay off the public repo)
+__pycache__/
+tools/html/
+tools/out*/
