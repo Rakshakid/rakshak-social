@@ -1,6 +1,6 @@
 # Playbook for automatic runs
 
-Read PLAN.md first. Everything here is for Claude runs started by a schedule. The founder approves every item before it goes live. Never schedule anything that is not approved on the Content Board.
+Read PLAN.md first, then TEAM.md (the content team, CoS checks, CTA, reach and story orders; it replaces Run A below where they differ). Everything here is for Claude runs started by a schedule. The founder approves every item before it goes live. Never schedule anything that is not approved on the Content Board.
 
 ## Fixed references
 - Media repo: GitHub Rakshakid/rakshak-social (public). Attach it with the add_repo tool (owner Rakshakid, repo rakshak-social, access push), then `git clone --depth 1 https://github.com/Rakshakid/rakshak-social`.
@@ -15,7 +15,7 @@ Black #07090D, gold #E8B547, gold-hi #F6DFA6, ivory #F6F1E7, muted #B9BDC7. Font
 Setup: `mkdir -p ~/.fonts && cp tools/fonts/*.ttf ~/.fonts/ && fc-cache -f`. Copy tools/render_lib.py (helpers) and tools/render_week2.py (latest example: carousels, stories, LinkedIn cards and animated reels; tools/captions_week2.py shows the posts.json format) to a work folder with tools/assets, replace the `slides` dict with the new week's slides (keep page/top/foot/CTA_SLIDE helpers), render with Playwright, then look at a contact sheet once and fix overlaps. Animated-text reel: adapt tools/reel_week1.py (5 scenes, crossfades, soft pad audio, ~15 s).
 Convert images to JPEG (quality 93) before upload: Instagram accepts only JPEG.
 
-## Run A: weekly drafting (Saturday evening)
+## Run A: weekly drafting (now Friday ~05:00, run by the team in TEAM.md)
 0. FIRST check whether next week is already drafted: list the board's published files (Artifact list scope files on the board URL). If data/w<N>_posts.json for next week exists, STOP and send nothing (the founder sometimes asks for an early draft).
 1. Work out next week's number and dates (Mon to Sun). Read PLAN.md for the phase, the Culture of Gratitude part due, and any dated occasions.
 2. Check last week's results with Metricool getAnalyticsDataByMetrics where available; prefer formats that did well.
