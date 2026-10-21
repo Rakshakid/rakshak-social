@@ -26,12 +26,29 @@ Read PLAN.md (guardrails) and PLAYBOOK.md (tools, board, Metricool) first. This 
 7. **Analyst**: Monday report; its 2 lessons are saved to weeks/2026-w<N>/lessons.md for the next Strategist.
 
 ## Reach orders (the ultimate aim)
-Audience: fauji families and fauji wives, veterans, CAPF (CRPF, BSF, ITBP, SSB, CISF, Assam Rifles), Agniveers, Veer Naris. Reach three rings: the founder's followers, the accounts the founder follows in this community, and everyone else in the same world.
+Audience: the ENTIRE defence ecosystem, never "Army" alone:
+- **Indian Armed Forces**: Army, Navy, Air Force (plus Coast Guard).
+- **All CAPFs**: CRPF, BSF, ITBP, SSB, CISF, Assam Rifles (and NSG).
+- **Families**: spouses (fauji wives / Rakshak Naris), Veer Naris, parents.
+- **Children ("brats")**: army brats, navy brats, air force brats, CAPF kids: cantonment childhoods, KV and Army school memories, 14 postings, new school every 2 years.
+- **Agniveers** and their families.
+- **Veterans** of every force.
+Reach three rings: the founder's followers, the accounts the founder follows in this community, and everyone else in the same world.
+- **Segment tags** on every item: Army / Navy / Air Force / CAPF / Families / Brats / Agniveer / Veterans. Each week: at least 1 item each for Navy, Air Force, CAPF and Brats; nothing uses Army-only visuals or words when the message applies to all ("fauji parivar", "uniformed families", "Rakshak").
+- **Brats content** is a growth engine: nostalgia (cantonment life, postings, packing boxes, the canteen, the unit bus), and CTAs like "Tag your fauji brat friend from school".
+- **Occasion calendar**: the Researcher checks raising days of every force and CAPF (e.g. ITBP 24 Oct, Infantry Day 27 Oct, BSF 1 Dec, Navy Day 4 Dec, Flag Day 7 Dec, SSB 20 Dec) from official sources and adds a story or post for each.
+- **Community map**: COMMUNITY.md lists the community accounts to engage, tag or invite to collab. The Researcher adds up to 5 new accounts each week (with segment and follower size) and marks any it could not verify. The founder confirms before any account is tagged or approached.
 - Write every post to be **sent and shared** (DM shares and story reposts drive Instagram reach most). Saves second, likes last.
 - Hook in the first 1.5 seconds / first slide. Text on screen; most watch muted.
 - Suggest 1–2 **collab or tag partners** per reel from community accounts (founder confirms before tagging; never imply endorsement).
-- Hashtag set per post: 3 community tags (e.g. #FaujiFamily #FaujiWife #CAPF #CRPF #ITBP #SSB #Veterans), 2 Rakshak tags (#RakshakID #CultureOfGratitude), max 8 total.
-- Rotate segment focus across the week so Army, CAPF and families each get at least 3 items.
+- Hashtag set per post: 3–4 segment tags, 2 Rakshak tags (#RakshakID #CultureOfGratitude), max 8 total. Segment banks:
+  - All: #FaujiFamily #FaujiParivar #DefenceFamily #IndianArmedForces #Veterans
+  - Army / Navy / Air Force: #IndianArmy #IndianNavy #IndianAirForce #NavyFamily #AirForceFamily
+  - CAPF: #CAPF #CRPF #BSF #ITBP #SSB #CISF #AssamRifles
+  - Families: #FaujiWife #ArmyWife #NavyWife #AirForceWife #RakshakNari #VeerNari
+  - Brats: #FaujiBrat #ArmyBrat #NavyBrat #AirForceBrat #CantonmentLife
+  - Agniveer: #Agniveer #Agnipath
+- Rotate segment focus across the week per the segment-tag rule above.
 - Founder's daily task (in the Friday message): 10 minutes commenting on 5 community accounts he follows, and forwarding the WhatsApp cards.
 
 ## CTA order (no exceptions)
@@ -60,3 +77,4 @@ At least 3 of the week's 5 feed items must be story-led with High emotion. Real 
 5. Shareable: would a fauji wife forward this to her WhatsApp group? If no, return it.
 6. Visual: logo top-left, text readable on a phone, no overlaps, varied look from last week.
 7. Facts from the Researcher have a source.
+8. Whole-ecosystem check: the week covers Navy, Air Force, CAPF and Brats at least once each; no item excludes a force when its message applies to all.
