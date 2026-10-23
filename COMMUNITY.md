@@ -18,7 +18,7 @@ Best source: the founder's own Instagram "Following" list. When he shares screen
 | @paramilitarycanteen | CAPF, Families | Unknown | To verify | "Centeral Police Canteen" (sic); may be unofficial. Only CAPF-family account found; low confidence, check before engaging; no tags. Added W4. |
 
 ## Do not tag or engage
-- @3star_sonia (serving CAPF officer, ~583K): centre of a July 2026 political controversy (ThePrint). Political risk.
+- @3star_sonia (serving CAPF officer): do not tag serving personnel; avoid any political association.
 - @wivesofthearmedforces: US military-spouse account, not our audience.
 
 ## To find (Researcher, up to 5 a week)
