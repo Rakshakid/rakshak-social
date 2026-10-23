@@ -13,6 +13,7 @@ Read PLAN.md (guardrails) and PLAYBOOK.md (tools, board, Metricool) first. This 
 - 7 feed items a week, ONE per day: 4 Reels (also YouTube Shorts) + 3 carousels. No daily stories, no teasers. Plus the 2 LinkedIn founder posts (Tue, Thu) as in PLAN.md.
 - Quality bar: "a top-notch advertisement". Every item opens on a scroll-stopping hook (witty, surprising, punchy; never a plain emotional plea or "begging" tone). Story-led, cause and effect, a real payoff.
 - Visuals: photo-realistic AI images and short AI video clips made in Runway (cinematic light, real textures, correct physics: aircraft move nose-first, the right way). No flat gradient backgrounds, no clip-art uniforms. Check every frame for errors before it goes to the board.
+- Founder's hook and story orders (23 Oct): hooks are POSITIVE, proud, triumphant. Never show any force hesitating, retreating, failing or told to turn back. Give the historical context in the first 2-3 seconds. In battle stories the fighting is the story, never a gimmick that "explains" the win. The story must be instantly clear to anyone, with no insider riddles. No pity, no crying, no begging tone. Occasion days (e.g. National Unity Day) work well as quizzes, one force per card.
 - Uniforms must be accurate and readable: correct colour, pattern and headgear for each force, the service insignia and force name annotated on screen.
 - Every reel and carousel gets a WhatsApp forward card (1080x1080, short line, rakshakid.com).
 
