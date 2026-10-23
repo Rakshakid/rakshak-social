@@ -9,15 +9,18 @@ Read PLAN.md (guardrails) and PLAYBOOK.md (tools, board, Metricool) first. This 
 - **Monday onwards**: approved posts go live.
 - **Monday 09:40**: the Analyst's weekly report (existing task).
 
-## Weekly output
-- 3 Reels (also YouTube Shorts), 2 carousels, 1 story per day (7), plus LinkedIn founder posts as in PLAN.md.
+## Weekly output (founder order, 23 Oct 2026: replaces all earlier counts)
+- 7 feed items a week, ONE per day: 4 Reels (also YouTube Shorts) + 3 carousels. No daily stories, no teasers. Plus the 2 LinkedIn founder posts (Tue, Thu) as in PLAN.md.
+- Quality bar: "a top-notch advertisement". Every item opens on a scroll-stopping hook (witty, surprising, punchy; never a plain emotional plea or "begging" tone). Story-led, cause and effect, a real payoff.
+- Visuals: photo-realistic AI images and short AI video clips made in Runway (cinematic light, real textures, correct physics: aircraft move nose-first, the right way). No flat gradient backgrounds, no clip-art uniforms. Check every frame for errors before it goes to the board.
+- Uniforms must be accurate and readable: correct colour, pattern and headgear for each force, the service insignia and force name annotated on screen.
 - Every reel and carousel gets a WhatsApp forward card (1080x1080, short line, rakshakid.com).
 
 ## The team (each is a separate worker with one job)
 1. **Strategist**: reads PLAN.md phase, dated occasions, last week's Analyst lessons and Metricool results; writes the week's brief: 12 items, each with audience segment, story, emotion target and CTA.
 2. **Researcher**: web-searches this week's relevant defence, veteran and CAPF dates, news and trending formats. Facts only from sources, with links. No politics.
 3. **Writer**: hooks, scripts, captions (English + Hindi), carousel text, story stickers, hashtags. Uses /rk- commands from the rakshak-instagram skill where useful.
-4. **Producer**: renders media per PLAYBOOK.md design system; Runway only when it clearly adds value, credit cost stated in the brief (prefer stills with slow moves, max 1–2 moving clips a week). No AI soldiers' faces, no ranks or insignia.
+4. **Producer**: renders media per PLAYBOOK.md design system, with realistic Runway images and clips as the default (state the credit cost in the brief). Realistic AI people are allowed (founder order 23 Oct); declare "AI-generated visuals" in the caption. No rank badges. Service insignia allowed where the founder asks for it (founder accepted the risk on 23 Oct).
 5. **Chief of Staff (CoS)**: an INDEPENDENT worker started fresh with only this file, PLAN.md and the finished drafts. It never sees how drafts were made. It runs the CoS checklist on every item:
    - Pass → item goes to the board marked "CoS cleared · story score x/25".
    - Fail → returned to Writer/Producer with the exact reason. Max 2 returns; on a third failure the item goes to the board marked "Needs your call: <reason>".
@@ -41,7 +44,7 @@ Reach three rings: the founder's followers, the accounts the founder follows in 
 - Write every post to be **sent and shared** (DM shares and story reposts drive Instagram reach most). Saves second, likes last.
 - Hook in the first 1.5 seconds / first slide. Text on screen; most watch muted.
 - Suggest 1–2 **collab or tag partners** per reel from community accounts (founder confirms before tagging; never imply endorsement).
-- Hashtag set per post: 3–4 segment tags, 2 Rakshak tags (#RakshakID #CultureOfGratitude), max 8 total. Segment banks:
+- Hashtag set per post (founder order 23 Oct): 10-15 tags. Always #RakshakID #CultureOfGratitude, plus the segment tags. Every brats item also carries the combined community tag #BratsOfBharat (Army, Navy, Air Force and CAPF brats as one). Segment banks:
   - All: #FaujiFamily #FaujiParivar #DefenceFamily #IndianArmedForces #Veterans
   - Army / Navy / Air Force: #IndianArmy #IndianNavy #IndianAirForce #NavyFamily #AirForceFamily
   - CAPF: #CAPF #CRPF #BSF #ITBP #SSB #CISF #AssamRifles
