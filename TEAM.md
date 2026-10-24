@@ -73,6 +73,9 @@ Every story-led item must pass the five checks, each scored 1–5 (total /25, mi
 Build: hook (normal life) → incident → struggle → turn → payoff line → what Rakshak ID does (honestly: "what we are working on") → CTA. Model: the "Dependent" Rakshak Nari story in the Story Planner.
 At least 3 of the week's 5 feed items must be story-led with High emotion. Real people only with consent; invented scenes marked "illustrative".
 
+## Music order (founder, 24 Oct)
+Background music is ALWAYS martial, rousing and inspiring: military drums, snare, brass, strings, choir-free orchestral or trailer-style. NEVER flute, bansuri, sitar, shehnai, classical/raga or other traditional instruments, and never soft piano or lullaby beds. One continuous track per piece; no breaks or second tracks. State the music choice in every script for approval.
+
 ## CoS checklist (every item)
 1. All PLAN.md guardrails (name "Col Arvind Vannur, Veteran"; "2.5 crore"; no ranks/insignia/MoD or service logos; no unsigned partner names; no promises of outcomes; no politics or criticism of schemes; no "Founding Member/first 1,00,000/Free for Life"; consent; verified figures; AI visuals declared; no old black-and-gold slogan template).
 2. CTA present and matches the CTA order.
@@ -81,4 +84,5 @@ At least 3 of the week's 5 feed items must be story-led with High emotion. Real 
 5. Shareable: would a fauji wife forward this to her WhatsApp group? If no, return it.
 6. Visual: logo top-left, text readable on a phone, no overlaps, varied look from last week.
 7. Facts from the Researcher have a source.
+9. Music follows the Music order (martial and rousing only, one continuous track).
 8. Whole-ecosystem check: the week covers Navy, Air Force, CAPF and Brats at least once each; no item excludes a force when its message applies to all.
