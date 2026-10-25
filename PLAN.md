@@ -42,7 +42,7 @@ Dates to use: Air Force Day 8 Oct, Infantry Day 27 Oct, Diwali 8 Nov, Navy Day 4
 - No brand names or logos of partners until the founder confirms a signed deal.
 - No promise of help or outcomes. Rakshak is a conveyor/networking platform: say "your post reaches thousands of verified Rakshaks", never "your people will turn up / we will help".
 - No ranks anywhere. No MoD logos. UPDATED 23 Oct (founder): realistic AI-generated people and uniforms are allowed and preferred over flat graphics (declare "AI-generated visuals"); service insignia allowed where the founder asks for it.
-- Never "Founding Member", "first 1,00,000" or "Free for Life". Use "Register early. Early members get extra privileges at launch."
+- Never "Founding Member" or "Free for Life". Early-bird offers are allowed (founder, 25 Oct): "the first 500 <segment> to register get exclusive brand vouchers, curated for <segment>", live in the app from 16 Dec. No numbers, percentages or brand names for the vouchers.
 - English and Hindi on every post. Instagram captions cannot hold clickable links: say "link in bio". Facebook/YouTube captions use https://rakshakid.com.
 - Keep wording plain and dignified, especially for Veer Nari content.
 

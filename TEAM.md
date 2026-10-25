@@ -55,7 +55,15 @@ Reach three rings: the founder's followers, the accounts the founder follows in 
 - Rotate segment focus across the week per the segment-tag rule above.
 - Founder's daily task (in the Friday message): 10 minutes commenting on 5 community accounts he follows, and forwarding the WhatsApp cards.
 
-## CTA order (no exceptions)
+## CTA order (founder, 25 Oct: replaces the old CTA list)
+The old "Register free" CTA got no registrations. Every reel and carousel now ends on a REGISTRATION CTA with a reason to act, aimed at ONE segment:
+1. Hook line that names the segment ("If this is your CV, this is for you." / "Fauji brats only." / "Agniveers, this one's yours.")
+2. Offer: "The first 500 <segment> to register get exclusive brand vouchers, curated for <segment>." Vouchers are brand promo codes delivered in the Rakshak ID app from 16 Dec. Never use numbers, percentages or brand names for the vouchers.
+3. One action: "Register early at rakshakid.com, link in bio." (Facebook/YouTube: https://rakshakid.com.) "Comment REGISTER" will be added once ManyChat is live.
+"Send this to a soldier you know. Share." moves to the caption only; the end card carries the registration CTA alone.
+Segments (first 500 each): Rakshak Naris (fauji wives, Armed Forces and CAPF), fauji brats, Agniveers, veterans, CAPF families.
+
+## Earlier CTA list (secondary lines for captions)
 Every reel, carousel, story and LinkedIn post ends with a clear CTA. One primary, optionally one secondary:
 - "Send this to a fauji family you know" / "Is post ko kisi fauji parivar ko bhejiye"
 - "Tag your Rakshak Nari" / "Tag the veteran who inspired you"
@@ -86,7 +94,7 @@ Whenever a Rakshak Nari (or any woman of a fauji family) appears: an attractive,
 Instagram Reels are delivered WITHOUT music. The founder adds a trending song in the Instagram app (+ > Reel > music note) and posts them himself. The Scheduler does NOT schedule Instagram Reels; it schedules only Facebook and YouTube versions (ask the founder which track, or post silent until he supplies tracks). Send him the silent MP4, the caption (EN+HI, CTA, hashtags) ready to paste, and the planned date/time.
 
 ## CoS checklist (every item)
-1. All PLAN.md guardrails (name "Col Arvind Vannur, Veteran"; "2.5 crore"; no ranks/insignia/MoD or service logos; no unsigned partner names; no promises of outcomes; no politics or criticism of schemes; no "Founding Member/first 1,00,000/Free for Life"; consent; verified figures; AI visuals declared; no old black-and-gold slogan template).
+1. All PLAN.md guardrails (name "Col Arvind Vannur, Veteran"; "2.5 crore"; no ranks/insignia/MoD or service logos; no unsigned partner names; no promises of outcomes; no politics or criticism of schemes; no "Founding Member/Free for Life"; early-bird offers only in the CTA order wording; consent; verified figures; AI visuals declared; no old black-and-gold slogan template).
 2. CTA present and matches the CTA order.
 3. Story score ≥18/25 and emotional core ≥4 (story-led items).
 4. English + Hindi present; Hindi natural spoken Devanagari; Instagram says "link in bio".
