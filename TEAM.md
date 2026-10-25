@@ -45,12 +45,12 @@ Reach three rings: the founder's followers, the accounts the founder follows in 
 - Write every post to be **sent and shared** (DM shares and story reposts drive Instagram reach most). Saves second, likes last.
 - Hook in the first 1.5 seconds / first slide. Text on screen; most watch muted.
 - Suggest 1–2 **collab or tag partners** per reel from community accounts (founder confirms before tagging; never imply endorsement).
-- Hashtag set per post (founder order 23 Oct): 10-15 tags. Always #RakshakID #CultureOfGratitude, plus the segment tags. Every brats item also carries the combined community tag #BratsOfBharat (Army, Navy, Air Force and CAPF brats as one). Segment banks:
-  - All: #FaujiFamily #FaujiParivar #DefenceFamily #IndianArmedForces #Veterans
-  - Army / Navy / Air Force: #IndianArmy #IndianNavy #IndianAirForce #NavyFamily #AirForceFamily
+- Hashtags (25 Oct: Instagram now allows only 5 per post, since Dec 2025): exactly 5 targeted tags per post: the occasion/topic tag, 2-3 segment tags from the banks below, and #RakshakID. No generic tags (#reels, #explore). Put searchable keywords ("Indian Navy wife", "Infantry Day 1947", "fauji family") in the caption text; Instagram search reads captions. Brats items use #BratsOfBharat as one of the 5. Segment banks:
+  - All: #FaujiFamily #FaujiParivar #IndianArmedForces #Veterans
+  - Army / Navy / Air Force: #IndianArmy #IndianNavy #IndianAirForce #NavyWife #AirForceFamily
   - CAPF: #CAPF #CRPF #BSF #ITBP #SSB #CISF #AssamRifles
-  - Families: #FaujiWife #ArmyWife #NavyWife #AirForceWife #RakshakNari #VeerNari
-  - Brats: #FaujiBrat #ArmyBrat #NavyBrat #AirForceBrat #CantonmentLife
+  - Families: #FaujiWife #ArmyWife #NavyWife #RakshakNari
+  - Brats: #BratsOfBharat #FaujiBrat #ArmyBrat #CantonmentLife
   - Agniveer: #Agniveer #Agnipath
 - Rotate segment focus across the week per the segment-tag rule above.
 - Founder's daily task (in the Friday message): 10 minutes commenting on 5 community accounts he follows, and forwarding the WhatsApp cards.
@@ -86,6 +86,14 @@ Background music is ALWAYS martial, rousing and inspiring: military drums, snare
 
 ## Uniform order (founder, 25 Oct)
 Uniforms must be correct and consistent across every shot of a piece: same person, same uniform, same rank shoulder boards, name tag and ribbons where the founder asks for a realistic officer. Basics are never wrong: caps are never placed on the ground, no bare feet in uniform, correct headgear (Sikh soldiers in turbans), shoes and belts worn properly. The Producer checks every frame for these before the Chief of Staff review.
+
+## Offer visibility order (founder, 25 Oct)
+Most viewers leave in the first seconds, so the offer shows from frame 1:
+- Gift tag: a small gold band under the logo, from the first frame until the end card: "<Segment>: first 500 get exclusive brand vouchers · Details at the end". Reels: whole video except the end card. Carousels: slides 1 and 2. Never at the bottom (Instagram's caption and buttons cover it).
+- The opening screen stays up at least 1 second longer than its text needs (reels: 4 s or more), so the hook and the tag can both be read.
+- Caption line 1 is the offer ("🎁 <Segment>: first 500 to register get exclusive brand vouchers. Link in bio."); the story follows.
+- The first comment (Metricool firstCommentText) repeats the offer; the founder pins it.
+- Keep story text and labels above the bottom 20% of a reel (Instagram overlay zone).
 
 ## Rakshak Nari visual order (founder, 25 Oct)
 Whenever a Rakshak Nari (or any woman of a fauji family) appears: an attractive, confident woman of about 30, modern and classy, in formal or official attire (tailored suit or blazer, smart formal kurta or saree). Never pitiable, poor or "beggar-style"; never shorts or revealing clothes. Vary the outfits and settings across slides while keeping the same face for the same character.
