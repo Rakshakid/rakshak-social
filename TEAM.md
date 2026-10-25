@@ -79,6 +79,9 @@ Background music is ALWAYS martial, rousing and inspiring: military drums, snare
 ## Uniform order (founder, 25 Oct)
 Uniforms must be correct and consistent across every shot of a piece: same person, same uniform, same rank shoulder boards, name tag and ribbons where the founder asks for a realistic officer. Basics are never wrong: caps are never placed on the ground, no bare feet in uniform, correct headgear (Sikh soldiers in turbans), shoes and belts worn properly. The Producer checks every frame for these before the Chief of Staff review.
 
+## Rakshak Nari visual order (founder, 25 Oct)
+Whenever a Rakshak Nari (or any woman of a fauji family) appears: an attractive, confident woman of about 30, modern and classy, in formal or official attire (tailored suit or blazer, smart formal kurta or saree). Never pitiable, poor or "beggar-style"; never shorts or revealing clothes. Vary the outfits and settings across slides while keeping the same face for the same character.
+
 ## Instagram music workflow (founder, 25 Oct)
 Instagram Reels are delivered WITHOUT music. The founder adds a trending song in the Instagram app (+ > Reel > music note) and posts them himself. The Scheduler does NOT schedule Instagram Reels; it schedules only Facebook and YouTube versions (ask the founder which track, or post silent until he supplies tracks). Send him the silent MP4, the caption (EN+HI, CTA, hashtags) ready to paste, and the planned date/time.
 
