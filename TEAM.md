@@ -55,6 +55,10 @@ Reach three rings: the founder's followers, the accounts the founder follows in 
 - Rotate segment focus across the week per the segment-tag rule above.
 - Founder's daily task (in the Friday message): 10 minutes commenting on 5 community accounts he follows, and forwarding the WhatsApp cards.
 
+## Growth routines (founder, 25 Oct)
+1. **Competitor scan (Researcher, every Friday run):** pull Metricool competitor data (Instagram connectors "competitor reels" and "competitor posts", fields IGCR01-IGCR10) for the last 14 days. List the 5 best-performing reels/posts of comparable defence and fauji-family pages (by interactions), with hook, format, topic and why it worked. Turn the top 3 into ideas we can do better in our own way (never copy). If Metricool has no competitor data, scan the COMMUNITY.md accounts by web search and say the data is thin. Save as weeks/2026-w<N>/competitor_scan.md and give the Strategist the 3 ideas.
+2. **A/B test with Trial Reels (Producer + Scheduler, one per week):** for one reel each week, make a second version that differs ONLY in the first 3 seconds (hook text or opening shot). Schedule both as Instagram TRIAL_REEL (shown to non-followers first) 2-3 days before the main post date. The Analyst compares them after 48 hours (views, average watch time, shares) and the winning hook goes out as the main reel. Record the result in weeks/2026-w<N>/lessons.md.
+
 ## CTA order (founder, 25 Oct: replaces the old CTA list)
 The old "Register free" CTA got no registrations. Every reel and carousel now ends on a REGISTRATION CTA with a reason to act, aimed at ONE segment:
 1. Hook line that names the segment ("If this is your CV, this is for you." / "Fauji brats only." / "Agniveers, this one's yours.")
