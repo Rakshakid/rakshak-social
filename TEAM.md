@@ -76,6 +76,9 @@ At least 3 of the week's 5 feed items must be story-led with High emotion. Real 
 ## Music order (founder, 24 Oct)
 Background music is ALWAYS martial, rousing and inspiring: military drums, snare, brass, strings, choir-free orchestral or trailer-style. NEVER flute, bansuri, sitar, shehnai, classical/raga or other traditional instruments, and never soft piano or lullaby beds. One continuous track per piece; no breaks or second tracks. State the music choice in every script for approval.
 
+## Uniform order (founder, 25 Oct)
+Uniforms must be correct and consistent across every shot of a piece: same person, same uniform, same rank shoulder boards, name tag and ribbons where the founder asks for a realistic officer. Basics are never wrong: caps are never placed on the ground, no bare feet in uniform, correct headgear (Sikh soldiers in turbans), shoes and belts worn properly. The Producer checks every frame for these before the Chief of Staff review.
+
 ## CoS checklist (every item)
 1. All PLAN.md guardrails (name "Col Arvind Vannur, Veteran"; "2.5 crore"; no ranks/insignia/MoD or service logos; no unsigned partner names; no promises of outcomes; no politics or criticism of schemes; no "Founding Member/first 1,00,000/Free for Life"; consent; verified figures; AI visuals declared; no old black-and-gold slogan template).
 2. CTA present and matches the CTA order.
