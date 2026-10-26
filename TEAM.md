@@ -55,6 +55,9 @@ Reach three rings: the founder's followers, the accounts the founder follows in 
 - Rotate segment focus across the week per the segment-tag rule above.
 - Founder's daily task (in the Friday message): 10 minutes commenting on 5 community accounts he follows, and forwarding the WhatsApp cards.
 
+## Posting-time order (founder, 26 Oct)
+The Strategist picks every post's time from data, not habit: Metricool getBestTimeToPostByNetwork (Instagram, then Facebook/YouTube) for the week, plus our own past results by posting hour (Instagram reels/posts analytics, "Date with time"). Occasion posts may go earlier on the day itself if the moment matters (e.g. Karva Chauth before moonrise). Every item on the board, and the founder's Friday message, shows the chosen time with a one-line reason ("Tue 6 PM: peak activity score 58; on the day itself"). Never change an approved post's time without the founder's OK.
+
 ## Threads (founder, 26 Oct)
 Every reel and carousel also goes to Threads (@rakshakid, connected in Metricool) as a separate post at the same time: under 500 characters, offer line first, 2-3 story lines, a clickable https://rakshakid.com, "AI-generated visuals", and ONE topic tag. Carousels go as images only.
 
