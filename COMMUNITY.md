@@ -21,10 +21,16 @@ Best source: the founder's own Instagram "Following" list. When he shares screen
 | @jawan_wife | Families (jawan's family, Army) | ~33K (ThePrint, Aug 2025) | To verify | Jawan's wife documenting life at postings such as Kashmir. Rare voice for jawans' families (97% of CSD users are JCO/OR). Added W5. |
 | @glamfit_faujiwife | Families | ~113K (The Reel Stars, Aug 2024; may be out of date) | To verify | Timsi Bector; lifestyle, fitness, nutrition. Husband's force not stated in source. Added W5. |
 | @sonali.singh.rawatrana | Families, Veteran-family business | Unknown | To verify | Sonali Singh Rawat Rana, Army spouse; hand-painted sarees brand So.Si.Ra. Fauji-family entrepreneur for Theme 5 stories. Added W5. |
+| @kv_girls | Brats (KV alumni) | ~16.5K (socialveins listing, checked 2 Nov 2026) | To verify | "Kendriya Vidyalaya Shootouts", Patna-based KV nostalgia/lifestyle page. Not an official KVS account: KVS has publicly warned against unauthorised use of its uniform and logo, so never imply a KVS link. Added W6. |
+| @kash210000 | Veterans (Army SF; NSG link) | ~246K+ (The Reel Stars, Jan 2026) | To verify | Col Kaushal Kashyap (Retd), 21 Para (SF), commanded NSG's 52 SAG; veteran storyteller reels. Bridges Army and NSG/CAPF audiences. Added W6. |
+| @shivenderkanwarofficial | Veterans (Army SF) | ~60.2K Instagram; ~663K YouTube (The Reel Stars, Jan 2026) | To verify | Col Shivender Pratap Singh Kanwar, 7 PARA (SF); military storytelling and talks. Confirm he is retired before any tag (do not tag serving personnel). Added W6. |
+| @militarymantra | All (civilian audience) | ~86.6K (The Reel Stars, Jan 2026) | To verify | Akash Raj, civilian storyteller who explains military stories to civilians. Good for reaching the "everyone else" ring. Added W6. |
+| @geeta_bora77 | Families (Army) | ~18.8K (The Reel Stars, Aug 2024; may be out of date) | To verify | Geeta Bora, Army wife; humour and acting reels. A witty voice that fits the "punchy hook, no pity" order. Added W6. |
 
 ## Do not tag or engage
 - @3star_sonia (serving CAPF officer): do not tag serving personnel; avoid any political association.
 - @wivesofthearmedforces: US military-spouse account, not our audience.
 
 ## To find (Researcher, up to 5 a week)
+(W6: web search found no verifiable Navy-wife, Air Force-wife, CAPF-family or Agniveer pages; the founder's own Following list is the best route for these. Official bodies to approach by formal letter only, never tag: CRPF Wives Welfare Association (CWA, crpf.gov.in/Media-Centre/CWA).)
 Navy brats and navy wives pages; Air Force wives pages; CAPF family and veteran pages (CRPF, BSF, ITBP, SSB, CISF, Assam Rifles); Agniveer communities; regimental and course alumni pages; KV and Army Public School alumni pages; veteran entrepreneurs.
