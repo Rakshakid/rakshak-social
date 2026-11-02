@@ -35,7 +35,7 @@ Dates to use: Air Force Day 8 Oct, Infantry Day 27 Oct, Diwali 8 Nov, Navy Day 4
 - SUPERSEDED 23 Oct by TEAM.md Weekly output (7 items: 4 reels + 3 carousels, one per day, no stories or teasers). Old note: Typical week before 16 Nov: 2 carousels, 1-2 image cards, a story EVERY day (7: countdown, a fact, Rakshak Nari of the week, register reminder, etc.), 2 animated-text reels (also posted as YouTube Shorts), 2 LinkedIn posts. About 14 items.
 - LinkedIn (approved 5 Oct): 2 posts a week (Tue and Thu 09:30 IST) on the founder's PERSONAL profile, written in first person as Col Arvind Vannur, Veteran. Audience: bank heads, brand partners, investors, corporate veterans. Text-led (150-250 words, English only), one image (reuse a week's card or a simple quote card), drawn from the Story Bank or the build journey. Provider 'linkedin', linkedinData {type: 'post'}. Never reveal deal terms or name partners before the founder confirms.
 - Every Instagram item also goes to Facebook (RakshakId Page). Reels also go to YouTube as Shorts.
-- Times IST: feed posts 19:30, stories 09:00, reels 11:00 on Sundays, occasion posts 09:00 on the day.
+- Times IST (founder, 2 Nov): every post at 19:00 (7 PM), occasion days included. See TEAM.md Posting-time order.
 
 ## Guardrails (do not break)
 - Community size: always "2.5 crore". Never 1 crore or 3 crore.
