@@ -108,7 +108,10 @@ Most viewers leave in the first seconds, so the offer shows from frame 1:
 ## Rakshak Nari visual order (founder, 25 Oct)
 Whenever a Rakshak Nari (or any woman of a fauji family) appears: an attractive, confident woman of about 30, modern and classy, in formal or official attire (tailored suit or blazer, smart formal kurta or saree). Never pitiable, poor or "beggar-style"; never shorts or revealing clothes. Vary the outfits and settings across slides while keeping the same face for the same character.
 
-## Instagram music workflow (founder, 25 Oct)
+## Music on every post (founder, 4 Nov)
+"There has to be music": every feed post carries martial music (Music order), on Instagram too. Instagram cannot carry music on a photo carousel posted through Metricool, so carousels are built as reels: the carousel slides at 1080x1920 (4:5 slide centred at y=170..1520 over a blurred, darkened fill, slow push-in, 0.5 s crossfades; tools/carousel_reel.py), one continuous march, also posted as a YouTube Short. Design such slides for a reel: no slide counters, no "Swipe", no "slide N" references ("at the end" instead), gift tag on every slide except the end card, opening slide 4 s or more, dense slides held long enough to read. Threads still gets the slides as images. Reels are scheduled on Instagram with the music baked in (this replaces the 25 Oct silent-Instagram workflow below).
+
+## Instagram music workflow (founder, 25 Oct; SUPERSEDED 4 Nov by "Music on every post")
 Instagram Reels are delivered WITHOUT music. The founder adds a trending song in the Instagram app (+ > Reel > music note) and posts them himself. The Scheduler does NOT schedule Instagram Reels; it schedules only Facebook and YouTube versions (ask the founder which track, or post silent until he supplies tracks). Send him the silent MP4, the caption (EN+HI, CTA, hashtags) ready to paste, and the planned date/time.
 
 ## CoS checklist (every item)
