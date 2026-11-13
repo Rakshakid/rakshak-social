@@ -15,7 +15,11 @@ Read PLAN.md (guardrails) and PLAYBOOK.md (tools, board, Metricool) first. This 
 - Visuals: photo-realistic AI images and short AI video clips made in Runway (cinematic light, real textures, correct physics: aircraft move nose-first, the right way). No flat gradient backgrounds, no clip-art uniforms. Check every frame for errors before it goes to the board.
 - Founder's hook and story orders (23 Oct): hooks are POSITIVE, proud, triumphant. Never show any force hesitating, retreating, failing or told to turn back. Give the historical context in the first 2-3 seconds. In battle stories the fighting is the story, never a gimmick that "explains" the win. The story must be instantly clear to anyone, with no insider riddles. No pity, no crying, no begging tone. Occasion days (e.g. National Unity Day) work well as quizzes, one force per card.
 - Uniforms must be accurate and readable: correct colour, pattern and headgear for each force, the service insignia and force name annotated on screen.
-- Every reel and carousel gets a WhatsApp forward card (1080x1080, short line, rakshakid.com).
+- NO WhatsApp cards (founder, 13 Nov 2026: "useless, I don't use it"). The board shows ONLY the 7 reels/carousels of the week: no WhatsApp cards, no Trial Reel pairs, no extra items. (LinkedIn founder posts are on hold until he asks for them again.)
+- No repetition (founder, 13 Nov 2026): never reuse an earlier image, concept, storyline or payoff line. Before drafting, list every earlier item (data/w*_posts.json on the board) and check each new idea against it; the CoS returns any repeat.
+- Themes (founder, 13 Nov 2026): at least 4 of the 7 items each week on Rakshak Business (veteran businesses: a platform to put a business in front of the 2.5 crore parivar; never promise sales), Agniveers or Rakshak Naris, building on what performed best.
+- Runway is on a paid plan (founder, 13 Nov 2026): use it for every item: photo-real stills plus 3 short video clips per reel and a separate martial track per reel. The plan has about 2,250 credits a month; a 7-reel week costs about 2,000 (stills about 6 each, 4 s clips about 80 each, music about 11 each). State the cost in the brief.
+- Sensitivity check: before posting any casualty-related claim (e.g. "no jawan lost"), the Researcher checks the latest news; drop it if anything changed.
 
 ## The team (each is a separate worker with one job)
 1. **Strategist**: reads PLAN.md phase, dated occasions, last week's Analyst lessons and Metricool results; writes the week's brief: 12 items, each with audience segment, story, emotion target and CTA.
@@ -53,7 +57,7 @@ Reach three rings: the founder's followers, the accounts the founder follows in 
   - Brats: #BratsOfBharat #FaujiBrat #ArmyBrat #CantonmentLife
   - Agniveer: #Agniveer #Agnipath
 - Rotate segment focus across the week per the segment-tag rule above.
-- Founder's daily task (in the Friday message): 10 minutes commenting on 5 community accounts he follows, and forwarding the WhatsApp cards.
+- Founder's daily task (in the Friday message): 10 minutes commenting on 5 community accounts he follows.
 
 ## Posting-time order (founder, 2 Nov: replaces the 26 Oct data-based order)
 Every post goes out at **7:00 PM IST (19:00)**: reels, carousels, Facebook, YouTube Shorts and Threads, every day, occasion days included. Do not pick times from Metricool best-time data or past results; the Analyst may report time data as information only. Every item on the board and the founder's Friday message shows "7:00 PM". Never change an approved post's time without the founder's OK. (LinkedIn founder posts keep their own slot, Tue and Thu 09:30, unless the founder says otherwise.)
