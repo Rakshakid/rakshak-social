@@ -1,0 +1,40 @@
+# W8 competitor scan (5 – 18 Nov 2026)
+
+Researcher, run of Thu 19 Nov for Week 8 (23–29 Nov 2026). Source: Metricool brand 7215456, Instagram connectors "competitor reels" (IGCR01–IGCR10) and "competitor posts" (IGCP01–IGCP11), 5 Nov 00:00 to 18 Nov 23:59 IST.
+
+## Data status: THIN (fourth week running)
+Metricool returned data for **one competitor only: @indiannavy** (official Indian Navy account): 4 reels and 34 posts. Still no fauji-family, brats, veteran or CAPF pages set up as competitors. Metricool gives likes and comments only (no shares, saves or views), so "interactions" are almost all likes.
+Fix still open for the founder (asked W5, W6, W7): add 4–6 comparable pages as Metricool competitors, e.g. @indianarmybrat, @iafbrats, @olivewivesvines, @kash210000, @ltcdr_nikhil_the_gto (COMMUNITY.md).
+
+Overlap with W7: the INS Chilka pre-parade reel ("A defining moment awaits", now 11,637) and the Lokayan 26 post ("One Voyage, Countless Bonds", now 6,385) were already listed in W7 and are left out below.
+
+Web supplement (family/veteran formats): no new family/brat format surfaced on the open web this fortnight. Two creator formats worth noting: (1) the IAF-veteran-turned-boutique-owner "The Fauji Founder" (@thefaujifounder) tells a calm "why I came home" story, not a hustle story (Daily Jagran, 26 Sep 2026: https://www.thedailyjagran.com/india/news/from-iaf-officer-to-boutique-wali-aunty-why-fauji-founder-chose-to-return-home-in-mountains-10330572); (2) fauji-wife creators keep winning with "sarkari ghar" day-in-the-life reels (ThePrint: https://theprint.in/ground-reports/fauji-wife-2-0-army-spouses-are-turning-sarkari-ghar-lifestyle-into-online-careers/2732138). The Navy's own family-side story of the fortnight was a parent-child one: Cdr S Karthikeyan completed the Seven Summits after mentoring his daughter Kaamya to the same feat (post below), but it scored low (2,584), probably because it was framed as an achievement notice, not a family story.
+
+## Top 5 by interactions (all @indiannavy, new this window)
+
+| # | Date (IST) | Format | Hook / opening | Topic | Interactions (likes+comments) | Why it worked |
+|---|---|---|---|---|---|---|
+| 1 | 12 Nov, 06:34 | Post | "Until We Meet Again, Egypt!" | INS Trishul ends her port call at Safaga Naval Base: cross-deck visits, joint diving training | 41,608 (41,554 + 54); engagement 0.79, nearly 3x anything else | A goodbye, not a hello. A warm, human farewell line in 2 short sentences. Third farewell hit in a row (W6 "Arrivederci, Civitavecchia!" 21.7K). [link](https://www.instagram.com/p/DfobGrHjOu3/) |
+| 2 | 9 Nov, 11:50 | Post | "Exercise #RAHATMITRA Concludes" | First India–Myanmar tri-services HADR exercise (Chennai, 5–6 Nov): disaster response, rescue, medical aid | 15,163 (15,147 + 16) | Rescue and relief, all three services in one frame. Helping people beats hardware. [link](https://www.instagram.com/p/DfhQ4I0EU9X/) |
+| 3 | 9 Nov, 11:10 | Post | "Αντίο, Ελλάδα! Goodbye, Greece!" | INS Trishul leaves Souda Bay; PASSEX with HS Limnos | 14,579 (14,535 + 44); 44 comments, among the most | Farewell again, in the host language. Comments came from people greeting back. [link](https://www.instagram.com/p/DfhMR70FFph/) |
+| 4 | 14 Nov, 07:21 | Post | "Together for Peace! ⚓" (4 flags) | INS Sahyadri in the sea phase of MALABAR 2026 (India, Japan, US, Australia) | 14,482 (14,455 + 27) | "Together" frame plus flags as the hook. Note: the dry MALABAR harbour post a day earlier got only 3,648, so the warm hook, not the exercise, did the work. [link](https://www.instagram.com/p/DftqHhLFbjs/) |
+| 5 | 17 Nov, 05:34 | Post | "Exercise IMNEX Concludes" | INS Rana and INS Sumedha sail alongside a Myanmar Navy ship at the end of IMNEX-26 | 13,048 (13,023 + 25) | Closing chapter of a short serial (harbour phase 3,918 → conclusion 13,048). Again the ending, not the start, scored. [link](https://www.instagram.com/p/Df1MLgSjQog/) |
+
+Also notable:
+- Best REEL: 12 Nov "The Indian Navy Across the Oceans." with a ONE-LINE caption: 10,937. The same day a near-identical reel with a 7-line caption got 8,582. Short caption won by about 27%. [link](https://www.instagram.com/reel/DfpG0DePv2w/) vs [link](https://www.instagram.com/reel/DfpC4HwTfFC/)
+- Build-up beats recap: the INS Chilka reel BEFORE the parade (9 Nov) has 11,637; the reel AFTER it (15 Nov, "3,358 trainees, including 2,756 Agniveers") only 6,388. [link](https://www.instagram.com/reel/Dfv9zsyAuLo/)
+- Agniveer news: 16 Nov CNS post says he "highlighted the latest opportunity available to each Agniveer to earn selection for retention as a regular sailor": 4,766. [link](https://www.instagram.com/p/DfzKG0MjhLZ/)
+- Anniversaries and explainers trail: INAS 312 "Albatross" turns 50 (18 Nov): 2,949; LRMR explainer 2,723; corvette explainer 3,553.
+- Weakest: Seven Summits (Cdr Karthikeyan, father-daughter): 2,584, though it drew 17 comments (high ratio). [link](https://www.instagram.com/p/Df1QExFzmrz/)
+
+## Top 3 insights
+1. **Goodbyes beat hellos.** "Until We Meet Again, Egypt!" (41.6K) and "Goodbye, Greece!" (14.6K) top the window, as "Arrivederci" did in W6; the closing chapter of a serial (IMNEX, 13K) beat its opening (3.9K).
+2. **Short and before beats long and after.** A one-line caption out-scored the same reel with 7 lines (10.9K vs 8.6K), and the pre-parade reel nearly doubled the post-parade one (11.6K vs 6.4K).
+3. **"Together" and "rescue" beat hardware and anniversaries.** HADR (15.2K) and "Together for Peace" (14.5K) lead; a 50th anniversary, explainers and VIP visits sit at 2.6–4.8K.
+
+## 3 ideas for Rakshak ID, week 23–29 Nov (our way, never copied)
+1. **"Until we meet again, Vizag." (posting farewell, Brats + Navy families, Brotherhood theme)** Insight 1. Hook (first 1.5 s, on screen): "Last evening in Quarter No. 7. Tomorrow, a new city." A Navy family's final evening at a base before a transfer: the brat's last cycle ride round the colony, the friend at the gate, the unit truck being loaded. Payoff: "Fauji kids never say goodbye. Only 'until we meet again.'" Then: Rakshak ID's verified network is how you find them again (Brotherhood / alumni, Phase 3). Short caption (insight 2). Distinct from earlier items (w4 "Das saal mein saat school" = schools count; w6 "Posting no. 9" = wife's resilience): this one is the farewell and the friend left behind. CTA: "Fauji brats only… tag the friend you said 'see you' to and never saw again." First 500 fauji brats. Navy Day run-up fit.
+2. **"26/11: three uniforms, one night." (Thu 26 Nov, 18th anniversary; Navy + NSG/CAPF + veterans)** Insight 3 ("together"). Proud, quiet, factual: Mumbai Police, Navy MARCOS and NSG Black Cats each held a line that night (MARCOS were among the first in at the Taj; NSG's Operation Black Tornado ended the siege). Name only verified, decorated heroes (Maj Sandeep Unnikrishnan, AC, NSG; Hav Gajender Singh, AC, NSG; Praveen Kumar Teotia, Shaurya Chakra, MARCOS, hit by five bullets, kept fighting while about 150 people were moved to safety). Close: "Never ever." No mention of the attackers' country, no politics, no gore. Caption max 3 lines. CTA to veterans and CAPF families. Run Researcher sensitivity check on the day.
+3. **"Day 1 after four years." (first Navy Agniveers released from mid-Nov; Agniveer + CAPF bridge to BSF Raising Day 1 Dec)** Insight 2 (build-up, not recap): told BEFORE the moment, the night before he takes off the uniform: "Tomorrow he hands in his kit. Tonight he irons it one last time." Payoff: the uniform comes off, the Rakshak stays; open doors include the CAPFs, where ex-Agniveers are to fill half the entry-level posts in BSF, CRPF, CISF, ITBP and Assam Rifles (Outlook, 26 Oct 2026). Do not debate the scheme; no retention percentages on screen. Distinct from w6-r1 (four years in uniform, a lifetime in family), w7-r2 (couldn't swim) and w7-r6 (role model). CTA: "Agniveers, this one's yours" + first 500 Agniveers.
+
+Sources and facts for all three: /tmp/claude-0/-home-claude-rakshak-social/1a9c86e9-1330-5b31-9fd9-66e845ef712e/scratchpad/w8/research.md
